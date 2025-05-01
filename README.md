@@ -9,4 +9,4 @@ Je remplace mon ancien portfolio par cette version plus moderne, afin de mieux r
 - **React** : Pour construire des composants dynamiques et réactifs.
 - **Tailwind CSS** : Pour un design rapide, flexible et responsive.
 
-**Le projet est actuellement en cours de développement (01 mai 2025)**
+**Le projet est actuellement en cours de développement (le 01 mai 2025)**
