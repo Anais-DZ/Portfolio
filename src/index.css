@@ -1,12 +1,18 @@
-
 @import "tailwindcss";
 
 @layer base {
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Cabin sketch', sans-serif;
+    font-family: 'Clarkson', sans-serif;
     background-color: white;
+  }
+
+  #root {
+    padding: 0 !important;
+    margin-top: 0 !important;
+    height: 100%;
+    width: 100%;
   }
 
   h1,
@@ -24,64 +30,65 @@
   code {
     @apply font-mono;
   }
-}
-
-/* Réinitialisation de base */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-code {
-  font-family: 'Courier New', monospace;
-}
-
-/* Variables CSS personnalisées */
-:root {
-  --primary-color: #7c86ff;
-  --primary-hover: #73DCE8;
-  --secondary-color: #FFFF;
-  --secondary-hover: #052f52;
-  --text-color: #333;
-  --background-color: #f5f5f5;
-  --header-background: #282c34;
-  --header-text: white;
-  --font-family: 'Cabin sketch', sans-serif;
-}
 
 
-/* Styles personnalisés pour le menu */
-nav a {
-  font-family: var(--font-family);   
-  text-decoration: none;           
-  margin-right: 2rem;               
-  padding-bottom: 0.4rem;          
-  transition: color 0.2s ease;      
-}
 
-/* Couleur au survol des liens */
-nav a:hover {
-  color: var(--primary-hover); 
-  border-bottom: 2px solid var(--primary-hover); 
-}
+  code {
+    font-family: 'Courier New', monospace;
+  }
 
-header {
-  padding-bottom: 20px !important;
-  /* padding-top: 30px !important; */
-}
+  /* Variables CSS personnalisées */
+  :root {
+    --primary-color: #7c86ff;
+    --primary-hover: #73DCE8;
+    --secondary-color: #FFFF;
+    --secondary-hover: #e00a6e;
+    --text-color: #333;
+    --background-color: #f5f5f5;
+    --header-background: #282c34;
+    --header-text: white;
+    --font-family: 'Clarkson', sans-serif;
+  }
 
 
-/* Styles pour les titres */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-bottom: 0.5em;
-  line-height: 1.2;
-  font-family: var(--font-family);
+  /* Styles personnalisés pour le menu */
+  nav a {
+    font-family: var(--font-family);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    margin: 0;
+  }
+
+  /* Couleur au survol des liens */
+  nav a:hover {
+    color: var(--secondary-hover);
+    /* border-bottom: 2px solid var(--secondary-hover);  */
+  }
+
+  /* header {
+    padding-bottom: 0px !important;
+    padding-top: 30px !important;
+  } */
+
+  .bg-presentation {
+    margin-top: 15px;
+    background-image: url('/pink.webp');
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  /* Styles pour les titres */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+    font-family: var(--font-family);
+  }
 }
 
 /* Masquer la barre de défilement */
