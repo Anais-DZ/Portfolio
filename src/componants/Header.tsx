@@ -5,7 +5,7 @@ function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return (
-        <header className="flex items-center justify-between border-b-1 border-gray-400 pt-5 px-5 lg:p-4 relative z-50">
+        <header className="flex items-center justify-between border-b-1 border-gray-400 pt-5 px-5 p-3 relative z-50">
             <p className="text-gray-900 font-bold text-xl"></p>
 
             {/* Menu Desktop */}

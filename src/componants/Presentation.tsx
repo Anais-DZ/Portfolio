@@ -6,8 +6,8 @@ function Presentation() {
     return (
         <>
 
-            <section className="flex items-center justify-center lg:justify-start bg-presentation mt-2 lg:mx-0">
-                <div className="relative w-full max-w-2xl p-4 m-2  lg:p-20 lg:m-8 lg:ml-40 ">
+            <section className="flex items-center justify-center lg:justify-start bg-presentation mt-8 lg:mx-0">
+                <div className="relative w-full max-w-2xl p-4 m-2 mt-12 mb-12  lg:p-20 lg:m-8 lg:ml-40 ">
 
                     {/* Fond flou rectangulaire */}
                     <div className="absolute inset-0 bg-stone-900/30 backdrop-blur-md rounded-xl"></div>
