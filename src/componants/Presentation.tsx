@@ -6,7 +6,7 @@ function Presentation() {
     return (
         <>
 
-            <section className="flex items-center justify-center lg:justify-start bg-presentation m-2 mt-6 lg:mx-0">
+            <section className="flex items-center justify-center lg:justify-start bg-presentation mt-2 lg:mx-0">
                 <div className="relative w-full max-w-2xl p-4 m-2  lg:p-20 lg:m-8 lg:ml-40 ">
 
                     {/* Fond flou rectangulaire */}
@@ -15,7 +15,7 @@ function Presentation() {
                     {/* Contenu au-dessus du blur */}
                     <div className="relative z-10 text-white space-y-4">
                         <h1 className="text-xl lg:text-4xl font-semibold text-left">
-                            Bonjour👋
+                            Bonjour 👋
                         </h1>
                         <p className="text-left lg:text-2xl">
                             Je suis Anaïs,
