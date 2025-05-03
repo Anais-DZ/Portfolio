@@ -7,13 +7,16 @@ function Presentation() {
         <>
 
             <section className="flex items-center justify-center lg:justify-start bg-presentation mt-8 lg:mx-0">
-                <div className="relative w-full max-w-2xl p-4 m-2 mt-12 mb-12  lg:p-20 lg:m-8 lg:ml-40 ">
+                <div className="relative w-full max-w-3xl p-4 m-2 mt-12 mb-12  lg:p-16 lg:m-10 lg:mt-14">
 
                     {/* Fond flou rectangulaire */}
-                    <div className="absolute inset-0 bg-stone-900/30 backdrop-blur-md rounded-xl"></div>
+                    <div className="absolute inset-0 bg-stone-900/50 backdrop-blur-md"></div>
+
+                    {/* Photo de profil*/}
+                    <img src="/pictureProfil.webp" alt="photo de profil" className="hidden lg:absolute lg:block lg:w-70 lg:h-auto lg:-top-8 lg:-right-11"/>
 
                     {/* Contenu au-dessus du blur */}
-                    <div className="relative z-10 text-white space-y-4">
+                    <div className="relative z-10 text-white space-y-6">
                         <h1 className="text-xl lg:text-4xl font-semibold text-left">
                             Bonjour 👋
                         </h1>
