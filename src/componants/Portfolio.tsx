@@ -48,7 +48,7 @@ function Portfolio() {
           <ProjectCard
             Image="firstpage.webp"
             Title="🔗 Mon premier portfolio"
-            TitleHref="https://cv-adiez.vercel.appan/"
+            TitleHref="https://cv-adiez.vercel.app/"
             ButtonHref="/#"
             Description="Mon premier portfolio inspiré de Linktree"
             Button="+ d'infos à venir..."
