@@ -11,7 +11,7 @@ function Portfolio() {
             TitleHref="http://verify-compost.vercel.app/"
             ButtonHref="/#"
             Description="Un site mobile sur le compostage"
-            Button="À venir..."
+            Button="+ d'infos à venir..."
           />
           <ProjectCard
             Image="verifScreenAdmin.webp"
@@ -19,7 +19,7 @@ function Portfolio() {
             TitleHref="https://verify-admin.onrender.com/"
             ButtonHref="/#"
             Description="Site Admin de Ver'ify Compost"
-            Button="À venir..."
+            Button="+ d'infos à venir..."
           />
           <ProjectCard
             Image="apiWaste.webp"
@@ -27,7 +27,7 @@ function Portfolio() {
             TitleHref="https://api-waste.onrender.com/"
             ButtonHref="/#"
             Description="API pour le fonctionnement du site Ver'ify Compost"
-            Button="À venir..."
+            Button="+ d'infos à venir..."
           />
           <ProjectCard
             Image="tictactoe.webp"
@@ -35,7 +35,7 @@ function Portfolio() {
             TitleHref="https://xo-arena.vercel.app/"
             ButtonHref="/#"
             Description="Le jeu Tic Tac Toe sur mobile"
-            Button="À venir..."
+            Button="+ d'infos à venir..."
           />
           <ProjectCard
             Image="cv.webp"
@@ -43,7 +43,7 @@ function Portfolio() {
             TitleHref="https://cv-adiez.vercel.app/"
             ButtonHref="/#"
             Description="Mon CV en ligne pour tout type d'écran"
-            Button="À venir..."
+            Button="+ d'infos à venir..."
           />
           <ProjectCard
             Image="firstpage.webp"
@@ -51,7 +51,7 @@ function Portfolio() {
             TitleHref="https://cv-adiez.vercel.appan/"
             ButtonHref="/#"
             Description="Mon premier portfolio inspiré de Linktree"
-            Button="À venir..."
+            Button="+ d'infos à venir..."
           />
         </div>
       </div>
