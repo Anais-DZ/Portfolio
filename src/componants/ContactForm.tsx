@@ -2,14 +2,15 @@ function ContactForm() {
 
     return (
         <>
-            <section className="relative">
-                <div className="container px-5 py-24 mx-auto">
-                    <div className="flex flex-col text-center w-full mb-12">
-                        <p className="lg:w-2/3 mx-auto text-lg">
-                            Vous pouvez directement me contacter via ce formulaire.
-                        </p>
-                    </div>
-                    <form
+
+            <div className="px-5 py-8 mx-2 lg:mx-auto my-12 bg-stone-400/10 backdrop-blur-md">
+                <div className="flex flex-col text-center w-full mb-12">
+                    <h3 className="text-2xl font-[Orbitron]">Formulaire de contact</h3>
+                    <p className="lg:w-2/3 mx-auto text-lg">
+                        Vous pouvez directement me contacter via ce formulaire.
+                    </p>
+                </div>
+                <form
                     action="https://formsubmit.co/4c6d921710bb3c7a8334d74f232d8325"
                     method="POST"
                     className="lg:w-1/2 md:w-2/3 mx-auto"
@@ -75,8 +76,7 @@ function ContactForm() {
                         </div>
                     </div>
                 </form>
-                </div>
-            </section>
+            </div>
         </>
 
     );

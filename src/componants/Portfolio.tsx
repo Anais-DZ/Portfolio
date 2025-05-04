@@ -1,35 +1,38 @@
+import ProjectCard from "./ProjectCard";
+
 function Portfolio() {
-
-    return (
-        <section className="flex items-center justify-center mt-8 lg:mx-0">
-            <div className="relative w-full  bg-gradient p-2 m-2 lg:m-0">
-
-                {/* Fond flou rectangulaire */}
-                <div className=" bg-stone-900/50 backdrop-blur-md py-6 lg:p-6">
-
-                    {/* Contenu au-dessus du blur */}
-                    <div className="relative z-10 text-white space-y-7">
-                        <h2 className="text-2xl lg:text-3xl font-semibold text-center font-[Orbitron]">
-                            Portfolio
-                        </h2>
-
-                        <div className="grid grid-cols-1 lg:grid-cols-3">
-
-                            {/* première colonne */}
-                           
-                            
-                            {/* deuxième colonne */}
-                            
-
-                            {/* troisième colonne */}
-                            
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-    );
+  return (
+    <section className="py-10 px-2 flex flex-col items-center lg:pt-18">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <ProjectCard
+            Image="verifScreenShot.webp"
+            Title="Ver'ify Compost"
+            TitleHref="http://verify-compost.vercel.app/"
+            ButtonHref="/#"
+            Description="Un site mobile sur le compostage"
+            Button="+ de détails"
+          />
+          <ProjectCard
+            Image="verifScreenAdmin.webp"
+            Title="Ver'ify Admin"
+            TitleHref="https://verify-admin.onrender.com/"
+            ButtonHref="/#"
+            Description="Site Admin de Ver'ify Compost"
+            Button="+ de détails"
+          />
+          <ProjectCard
+            Image="tictactoe.webp"
+            Title="Tic Tac Toe Arena"
+            TitleHref="https://xo-arena.vercel.app/"
+            ButtonHref="/#"
+            Description="Le jeu Tic Tac Toe sur mobile"
+            Button="+ de détails"
+          />
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default Portfolio;

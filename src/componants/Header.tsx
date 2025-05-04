@@ -11,9 +11,9 @@ function Header() {
             {/* Menu Desktop */}
             <nav className="hidden lg:flex font-[Orbitron]">
                 <ul className="flex space-x-8 text-xl text-gray-900">
-                    <li><a href="/about" >À propos de moi</a></li>
-                    <li><a href="/portfolio" >Portfolio</a></li>
-                    <li><a href="/contact" >Contact</a></li>
+                    <li><a href="#about" >À propos de moi</a></li>
+                    <li><a href="#portfolio" >Portfolio</a></li>
+                    <li><a href="#contact" >Contact</a></li>
                 </ul>
             </nav>
 
@@ -51,9 +51,9 @@ function Header() {
                     </button>
 
                     <nav className="flex flex-col items-center gap-10 text-lg font-semibold font-[Orbitron]">
-                        <a href="/about" className="uppercase border-b border-slate-100  text-slate-100 ">À propos de moi</a>
-                        <a href="/portfolio" className="uppercase border-b border-slate-100  text-slate-100 ">Portfolio</a>
-                        <a href="/contact" className="uppercase border-b border-slate-100  text-slate-100 ">Contact</a>
+                        <a href="#about" className="uppercase border-b border-slate-100  text-slate-100 ">À propos de moi</a>
+                        <a href="#portfolio" className="uppercase border-b border-slate-100  text-slate-100 ">Portfolio</a>
+                        <a href="#contact" className="uppercase border-b border-slate-100  text-slate-100 ">Contact</a>
                     </nav>
                 </div>
             </div>

@@ -14,7 +14,7 @@ const Home: React.FC = () => {
 
       <Introduction />
 
-      <h2 className="flex items-center justify-center lg:justify-end border-b-1 border-gray-400 pt-5 px-5 p-3 font-[Orbitron] font-normal text-xl mt-12 lg:text-2xl lg:mt-18">
+      <h2 id="about" className="flex items-center justify-center lg:justify-end border-b-1 border-gray-400 pt-5 px-5 p-3 font-[Orbitron] font-normal text-xl mt-12 lg:text-2xl lg:mt-18">
         À propos de moi
       </h2>
 
@@ -40,13 +40,15 @@ const Home: React.FC = () => {
 
       <HardSkills />
 
-      <h2 className="flex items-center justify-center lg:justify-end border-b-1 border-gray-400 pt-5 px-5 p-3 font-[Orbitron] font-normal text-xl mt-12 lg:text-2xl lg:mt-18">
+      <h2 id="portfolio" className="flex items-center justify-center lg:justify-end border-b-1 border-gray-400 pt-5 px-5 p-3 font-[Orbitron] font-normal text-xl mt-12 lg:text-2xl lg:mt-22">
         Portfolio
       </h2>
 
+    
       <Portfolio />
+  
 
-      <h2 className="flex items-center justify-center lg:justify-end border-b-1 border-gray-400 pt-5 px-5 p-3 font-[Orbitron] font-normal text-xl mt-12 lg:text-2xl lg:mt-18">
+      <h2 id="contact" className="flex items-center justify-center lg:justify-end border-b-1 border-gray-400 pt-5 px-5 p-3 font-[Orbitron] font-normal text-xl mt-12 lg:text-2xl lg:mt-18">
         Contact
       </h2>
 
