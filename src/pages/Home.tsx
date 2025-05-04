@@ -32,7 +32,7 @@ const Home: React.FC = () => {
 
         <p>Après un récent stage sur des projets d’application web et mobile, en collaborant à distance avec une équipe de développeurs, je souhaite continuer avec une alternance en Conception et Développement d’Applications (niveau Bac+3/4).</p>
 
-        <p>Sérieuse mais pas rigide, discrète mais impliquée, curieuse et motivée, je suis prête à rejoindre une entreprise qui serait pour moi l’opportunité de continuer à apprendre aux côtés de développeurs expérimentés, tout en contribuant activement à vos projets grâce aux connaissances que j’ai déjà acquises.</p>
+        <p>Sérieuse mais pas rigide, discrète mais impliquée, curieuse et motivée, je suis prête à rejoindre une entreprise qui serait pour moi l’opportunité de continuer à apprendre aux côtés de développeurs expérimentés, tout en contribuant activement à leurs projets grâce aux connaissances que j’ai déjà acquises.</p>
         
       </section>
 
