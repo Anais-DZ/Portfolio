@@ -7,7 +7,7 @@ function Portfolio() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <ProjectCard
             Image="verifScreenShot.webp"
-            Title="Ver'ify Compost"
+            Title="🔗 Ver'ify Compost"
             TitleHref="http://verify-compost.vercel.app/"
             ButtonHref="/#"
             Description="Un site mobile sur le compostage"
@@ -15,7 +15,7 @@ function Portfolio() {
           />
           <ProjectCard
             Image="verifScreenAdmin.webp"
-            Title="Ver'ify Admin"
+            Title="🔗 Ver'ify Admin"
             TitleHref="https://verify-admin.onrender.com/"
             ButtonHref="/#"
             Description="Site Admin de Ver'ify Compost"
@@ -23,7 +23,7 @@ function Portfolio() {
           />
           <ProjectCard
             Image="tictactoe.webp"
-            Title="Tic Tac Toe Arena"
+            Title="🔗 Tic Tac Toe Arena"
             TitleHref="https://xo-arena.vercel.app/"
             ButtonHref="/#"
             Description="Le jeu Tic Tac Toe sur mobile"
