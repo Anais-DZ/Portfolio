@@ -1,18 +1,17 @@
-import Links from "./Links";
+import NetworkLinks from "./NetworkLinks";
 
 function Introduction() {
 
     return (
         <>
 
-            <section className="flex items-center justify-center lg:justify-start bg-presentation mt-8 lg:mx-0">
-                <div className="relative w-full max-w-3xl p-4 m-2 mt-12 mb-12  lg:p-16 lg:m-10 lg:mt-18">
+            <section className="flex items-center justify-center  bg-presentation mt-8 lg:mx-0">
 
-                    {/* Fond flou rectangulaire */}
-                    <div className="absolute inset-0 bg-stone-900/50 backdrop-blur-md"></div>
+                {/* Fond flou rectangulaire */}
+                <div className="relative w-full max-w-5xl p-4 m-2 mt-16 mb-12 lg:p-16  lg:mt-22 bg-stone-900/50 backdrop-blur-md">
 
                     {/* Photo de profil*/}
-                    <img src="/pictureProfil.webp" alt="photo de profil" loading="lazy" className="hidden lg:absolute lg:block lg:w-66 lg:h-auto lg:-top-14 lg:-right-7"/>
+                    <img src="/pictureProfil.webp" alt="photo de profil" loading="lazy" className="w-36 h-auto absolute -top-14 right-1 lg:w-66 lg:h-auto lg:-top-14 lg:-right-7"/>
 
                     {/* Contenu au-dessus du blur */}
                     <div className="relative z-10 text-white space-y-7">
@@ -32,7 +31,7 @@ function Introduction() {
                             Vous pouvez découvrir mon portfolio ci-dessous, ainsi qu’en apprendre un peu plus sur moi et mon parcours.
                         </p>
 
-                        <Links />
+                        <NetworkLinks />
                     </div>
 
                 </div>

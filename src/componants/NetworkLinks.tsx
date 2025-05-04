@@ -2,8 +2,13 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 
-function Links() {
 
+interface NetworkLinksProps {
+  className?: string;
+}
+
+
+function NetworkLinks({ className }: NetworkLinksProps) {
     return (
         <>
             <nav className="flex flex-row space-x-4 lg:space-x-6">
@@ -13,7 +18,7 @@ function Links() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FaGithub className="w-7 h-7" />
+                    <FaGithub className={`w-7 h-7 ${className}`} />
                 </a>
                 <a
                     href="https://www.linkedin.com/in/anaïs-diez"
@@ -21,13 +26,13 @@ function Links() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FaLinkedin className="w-7 h-7" />
+                    <FaLinkedin className={`w-7 h-7 ${className}`} />
                 </a>
                 <a
                     href="https://www.linkedin.com/in/anaïs-diez"
                     aria-label="Me contacter"
                 >
-                    <FaEnvelope className="w-7 h-7" />
+                    <FaEnvelope className={`w-7 h-7 ${className}`} />
                 </a>
             </nav>
         </>
@@ -35,4 +40,4 @@ function Links() {
     );
 }
 
-export default Links;
+export default NetworkLinks;
