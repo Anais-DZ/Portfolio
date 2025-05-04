@@ -29,7 +29,7 @@ function NetworkLinks({ className }: NetworkLinksProps) {
                     <FaLinkedin className={`w-7 h-7 ${className}`} />
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/anaïs-diez"
+                    href="#contact"
                     aria-label="Me contacter"
                 >
                     <FaEnvelope className={`w-7 h-7 ${className}`} />
