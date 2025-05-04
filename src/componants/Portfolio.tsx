@@ -22,11 +22,35 @@ function Portfolio() {
             Button="À venir..."
           />
           <ProjectCard
+            Image="apiWaste.webp"
+            Title="🔗 API Waste"
+            TitleHref="https://api-waste.onrender.com/"
+            ButtonHref="/#"
+            Description="API pour le fonctionnement du site Ver'ify Compost"
+            Button="À venir..."
+          />
+          <ProjectCard
             Image="tictactoe.webp"
             Title="🔗 Tic Tac Toe Arena"
             TitleHref="https://xo-arena.vercel.app/"
             ButtonHref="/#"
             Description="Le jeu Tic Tac Toe sur mobile"
+            Button="À venir..."
+          />
+          <ProjectCard
+            Image="cv.webp"
+            Title="🔗 CV en ligne"
+            TitleHref="https://cv-adiez.vercel.app/"
+            ButtonHref="/#"
+            Description="Mon CV en ligne pour tout type d'écran"
+            Button="À venir..."
+          />
+          <ProjectCard
+            Image="firstpage.webp"
+            Title="🔗 Mon premier portfolio"
+            TitleHref="https://cv-adiez.vercel.appan/"
+            ButtonHref="/#"
+            Description="Mon premier portfolio inspiré de Linktree"
             Button="À venir..."
           />
         </div>
