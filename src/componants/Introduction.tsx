@@ -16,7 +16,7 @@ function Introduction() {
                     {/* Contenu au-dessus du blur */}
                     <div className="relative z-10 text-white space-y-7">
                         <h1 className="text-xl lg:text-4xl font-semibold text-left font-[Orbitron]">
-                            Bonjour 👋
+                            Bonjour 👩‍💻
                         </h1>
                         <p className="text-left lg:text-2xl font-[Orbitron]">
                             Je suis Anaïs,
