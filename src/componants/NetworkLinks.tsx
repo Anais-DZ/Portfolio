@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { TbFileCv } from "react-icons/tb";
 import { FaEnvelope } from "react-icons/fa";
 
 
@@ -27,6 +28,14 @@ function NetworkLinks({ className }: NetworkLinksProps) {
                     rel="noopener noreferrer"
                 >
                     <FaLinkedin className={`w-7 h-7 ${className}`} />
+                </a>
+                <a
+                    href="https://cv-adiez.vercel.app/"
+                    aria-label="Voir mon CV en ligne"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <TbFileCv className={`w-7 h-7 ${className}`} />
                 </a>
                 <a
                     href="#contact"
