@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../componants/Header';
 import Introduction from '../componants/Introduction';
 import HardSkills from '../componants/HardSkills';
+import Portfolio from '../componants/Portfolio';
 import Footer from '../componants/Footer';
 
 const Home: React.FC = () => {
@@ -12,10 +13,11 @@ const Home: React.FC = () => {
 
       <Introduction />
 
-      <h2 className="flex items-center justify-center lg:justify-end border-b-1 border-gray-400 pt-5 px-5 p-3 font-[Orbitron] font-normal text-xl mt-12 lg:text-2xl">
+      <h2 className="flex items-center justify-center lg:justify-end border-b-1 border-gray-400 pt-5 px-5 p-3 font-[Orbitron] font-normal text-xl mt-12 lg:text-2xl lg:mt-18">
         À propos de moi
       </h2>
-      <section className='text-left m-4 space-y-4'>
+
+      <section className='text-left m-4 space-y-4 py-6 lg:py-10'>
       <img
           src="/nyc.webp"
           alt="New York"
@@ -32,11 +34,16 @@ const Home: React.FC = () => {
 
         <p>Après un récent stage sur des projets d’application web et mobile, en collaborant à distance avec une équipe de développeurs, je souhaite continuer avec une alternance en Conception et Développement d’Applications (niveau Bac+3/4).</p>
 
-        <p>Sérieuse mais pas rigide, discrète mais impliquée, curieuse et motivée, je suis prête à rejoindre une entreprise qui serait pour moi l’opportunité de continuer à apprendre aux côtés de développeurs expérimentés, tout en contribuant activement à leurs projets grâce aux connaissances que j’ai déjà acquises.</p>
-        
+        <p>Sérieuse mais pas rigide, discrète mais impliquée, curieuse et motivée, je suis prête à rejoindre une entreprise qui serait pour moi l’opportunité de continuer à apprendre aux côtés de développeurs expérimentés, tout en contribuant activement à leurs projets grâce aux connaissances que j’ai déjà acquises.</p> 
       </section>
 
       <HardSkills />
+
+      <h2 className="flex items-center justify-center lg:justify-end border-b-1 border-gray-400 pt-5 px-5 p-3 font-[Orbitron] font-normal text-xl mt-12 lg:text-2xl lg:mt-18">
+        Portfolio
+      </h2>
+
+      <Portfolio />
 
       <Footer />
     </>

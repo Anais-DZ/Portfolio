@@ -44,7 +44,7 @@ function Tools() {
                     <div className="flex flex-col items-center">
                         <FaGithub className="w-8 h-8" />
                         <p>
-                            Git/GitHub
+                            GitHub
                         </p>
                     </div>
                 </div>
