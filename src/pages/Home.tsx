@@ -3,6 +3,7 @@ import Header from '../componants/Header';
 import Introduction from '../componants/Introduction';
 import HardSkills from '../componants/HardSkills';
 import Portfolio from '../componants/Portfolio';
+import ContactForm from '../componants/ContactForm';
 import Footer from '../componants/Footer';
 
 const Home: React.FC = () => {
@@ -44,6 +45,12 @@ const Home: React.FC = () => {
       </h2>
 
       <Portfolio />
+
+      <h2 className="flex items-center justify-center lg:justify-end border-b-1 border-gray-400 pt-5 px-5 p-3 font-[Orbitron] font-normal text-xl mt-12 lg:text-2xl lg:mt-18">
+        Contact
+      </h2>
+
+      <ContactForm />
 
       <Footer />
     </>
