@@ -1,26 +1,25 @@
-function Presentation() {
+import Links from "./Links";
 
-
-
+function Introduction() {
 
     return (
         <>
 
             <section className="flex items-center justify-center lg:justify-start bg-presentation mt-8 lg:mx-0">
-                <div className="relative w-full max-w-3xl p-4 m-2 mt-12 mb-12  lg:p-16 lg:m-10 lg:mt-14">
+                <div className="relative w-full max-w-3xl p-4 m-2 mt-12 mb-12  lg:p-16 lg:m-10 lg:mt-18">
 
                     {/* Fond flou rectangulaire */}
                     <div className="absolute inset-0 bg-stone-900/50 backdrop-blur-md"></div>
 
                     {/* Photo de profil*/}
-                    <img src="/pictureProfil.webp" alt="photo de profil" className="hidden lg:absolute lg:block lg:w-70 lg:h-auto lg:-top-8 lg:-right-11"/>
+                    <img src="/pictureProfil.webp" alt="photo de profil" loading="lazy" className="hidden lg:absolute lg:block lg:w-66 lg:h-auto lg:-top-14 lg:-right-7"/>
 
                     {/* Contenu au-dessus du blur */}
-                    <div className="relative z-10 text-white space-y-6">
-                        <h1 className="text-xl lg:text-4xl font-semibold text-left">
+                    <div className="relative z-10 text-white space-y-7">
+                        <h1 className="text-xl lg:text-4xl font-semibold text-left font-[Orbitron]">
                             Bonjour 👋
                         </h1>
-                        <p className="text-left lg:text-2xl">
+                        <p className="text-left lg:text-2xl font-[Orbitron]">
                             Je suis Anaïs,
                             <br />
                             Développeuse Web et Web mobile.
@@ -32,6 +31,8 @@ function Presentation() {
                         <p className="text-left lg:text-lg">
                             Vous pouvez découvrir mon portfolio ci-dessous, ainsi qu’en apprendre un peu plus sur moi et mon parcours.
                         </p>
+
+                        <Links />
                     </div>
 
                 </div>
@@ -42,4 +43,4 @@ function Presentation() {
     );
 }
 
-export default Presentation;
+export default Introduction;

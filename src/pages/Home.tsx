@@ -1,15 +1,15 @@
 import React from 'react';
 import Header from '../componants/Header';
-import Presentation from '../componants/Presentation';
+import Introduction from '../componants/Introduction';
 
 const Home: React.FC = () => {
   return (
     <>
-    <div className=''>
-      <Header />
+      <div className=''>
+        <Header />
       </div>
-      <Presentation />
-      
+      <Introduction />
+
     </>
   );
 };

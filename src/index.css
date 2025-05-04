@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
 @layer base {
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Clarkson', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: white;
   }
 
@@ -47,13 +49,12 @@
     --background-color: #f5f5f5;
     --header-background: #282c34;
     --header-text: white;
-    --font-family: 'Clarkson', sans-serif;
+    --primary-font-family: 'Montserrat', sans-serif;
   }
 
 
   /* Styles personnalisés pour le menu */
   nav a {
-    font-family: var(--font-family);
     text-decoration: none;
     transition: color 0.2s ease-in-out;
     margin: 0;
