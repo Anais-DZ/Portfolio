@@ -11,7 +11,7 @@ function Portfolio() {
             TitleHref="http://verify-compost.vercel.app/"
             ButtonHref="/#"
             Description="Un site mobile sur le compostage"
-            Button="+ de détails"
+            Button="À venir..."
           />
           <ProjectCard
             Image="verifScreenAdmin.webp"
@@ -19,7 +19,7 @@ function Portfolio() {
             TitleHref="https://verify-admin.onrender.com/"
             ButtonHref="/#"
             Description="Site Admin de Ver'ify Compost"
-            Button="+ de détails"
+            Button="À venir..."
           />
           <ProjectCard
             Image="tictactoe.webp"
@@ -27,7 +27,7 @@ function Portfolio() {
             TitleHref="https://xo-arena.vercel.app/"
             ButtonHref="/#"
             Description="Le jeu Tic Tac Toe sur mobile"
-            Button="+ de détails"
+            Button="À venir..."
           />
         </div>
       </div>
