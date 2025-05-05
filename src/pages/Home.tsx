@@ -1,12 +1,12 @@
-import React from 'react';
 import Header from '../componants/Header';
 import Introduction from '../componants/Introduction';
 import HardSkills from '../componants/HardSkills';
 import Portfolio from '../componants/Portfolio';
+import PromoOverlay from '../componants/PromoOverlay';
 import ContactForm from '../componants/ContactForm';
 import Footer from '../componants/Footer';
 
-const Home: React.FC = () => {
+function Home() {
   return (
     <>
 
@@ -19,7 +19,7 @@ const Home: React.FC = () => {
       </h2>
 
       <section className='text-left m-4 space-y-4 py-6 lg:py-10'>
-      <img
+        <img
           src="/nyc.webp"
           alt="New York"
           className="w-42 h-auto float-right ml-2 mb-0 lg:w-54"
@@ -35,7 +35,7 @@ const Home: React.FC = () => {
 
         <p>Après un récent stage sur des projets d’application web et mobile, en collaborant à distance avec une équipe de développeurs, je souhaite continuer avec une alternance en Conception et Développement d’Applications (niveau Bac+3/4).</p>
 
-        <p>Sérieuse mais pas rigide, discrète mais impliquée, curieuse et motivée, je suis prête à rejoindre une entreprise qui serait pour moi l’opportunité de continuer à apprendre aux côtés de développeurs expérimentés, tout en contribuant activement à leurs projets grâce aux connaissances que j’ai déjà acquises.</p> 
+        <p>Sérieuse mais pas rigide, discrète mais impliquée, curieuse et motivée, je suis prête à rejoindre une entreprise qui serait pour moi l’opportunité de continuer à apprendre aux côtés de développeurs expérimentés, tout en contribuant activement à leurs projets grâce aux connaissances que j’ai déjà acquises.</p>
       </section>
 
       <HardSkills />
@@ -44,9 +44,19 @@ const Home: React.FC = () => {
         Portfolio
       </h2>
 
-    
+
       <Portfolio />
-  
+
+      <div className='flex flex-col justify-center items-center lg:mt-12'>
+        <img
+          src="/qrcode.png"
+          alt="qr code"
+          className="w-42 h-auto mb-0 lg:w-54"
+        />
+        <p className='font-[Orbitron]'>Scannez-moi !</p>
+      </div>
+
+      <PromoOverlay />
 
       <h2 id="contact" className="flex items-center justify-center lg:justify-end border-b-1 border-gray-400 pt-5 px-5 p-3 font-[Orbitron] font-normal text-xl mt-12 lg:text-2xl lg:mt-18">
         Contact

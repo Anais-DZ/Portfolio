@@ -2,7 +2,6 @@ function ContactForm() {
 
     return (
         <>
-
             <div className="px-5 py-8 mx-2 lg:mx-auto my-12 bg-stone-400/10 backdrop-blur-md">
                 <div className="flex flex-col text-center w-full mb-12">
                     <h3 className="text-2xl font-[Orbitron]">Formulaire de contact</h3>
