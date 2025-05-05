@@ -58,9 +58,9 @@ const PromoOverlay = () => {
         >
           ×
         </button>
-        <h2 className="text-xl font-[Orbitron] font-semibold text-stone-900 mt-10 mb-3">Embauchez-moi</h2>
-        <p className="text-base text-gray-700 mb-4">
-          …et vous ne le regretterez pas !
+        <p className="text-xl text-gray-900 mt-10 mb-3">Faites le bon choix</p>
+        <p className="text-lg font-semibold mb-4">
+        ...recrutez-moi !
         </p>
         <button
           onClick={handleContactClick}
