@@ -17,7 +17,7 @@ const LayoutProject = ({
             <h3>
                 <a
                     href={Link[0]}
-                    className="mt-10 block text-xl font-semibold lg:hover:scale-105 lg:transition-all lg:duration-300 lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                    className="mt-10 underline underline-offset-3 block text-xl font-semibold lg:hover:scale-105 lg:transition-all lg:duration-300 lg:text-[22px] xl:text-xl 2xl:text-[22px]"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
