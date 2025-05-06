@@ -1,9 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { Menu as MenuIcon } from "lucide-react";
+import { useLocation, Link } from "react-router-dom";  // Ajoute useLocation et Link de React Router
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const overlayRef = useRef<HTMLDivElement>(null);
+
+  // Utilisation de useLocation pour obtenir l'URL actuelle
+  const location = useLocation();
 
   // Fermer le menu si on clique à l’extérieur
   useEffect(() => {
@@ -21,36 +25,55 @@ function Header() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [isNavOpen]);
 
+  // Vérifie si nous sommes sur la page d'accueil
+  const isHomePage = location.pathname === "/"; 
+
   return (
     <header className="flex items-center justify-between border-b-1 border-gray-400 pt-5 px-5 p-3 relative z-50">
       <p className="font-[Orbitron] text-xl">Anaïs DIEZ</p>
 
       {/* Menu Desktop */}
-      <nav className="hidden lg:flex font-[Orbitron]">
-        <ul className="flex space-x-8 text-xl">
-          <li><a href="#about">À propos de moi</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      {isHomePage ? (
+        <nav className="hidden lg:flex font-[Orbitron]">
+          <ul className="flex space-x-8 text-xl">
+            <li><a href="#about">À propos de moi</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      ) : (
+
+        // Si ce n'est pas la page d'accueil, afficher "Retour"
+        <nav className="hidden lg:flex font-[Orbitron]">
+          <ul className="flex space-x-8 text-xl">
+            <li>
+              {/* Retour vers la page d'accueil */}
+              <Link to="/" className="text-xl">Retour</Link>  
+            </li>
+          </ul>
+        </nav>
+      )}
 
       {/* Menu Mobile */}
       <div className="lg:hidden">
-        <button onClick={() => setIsNavOpen(true)} aria-label="Ouvrir le menu">
-          <MenuIcon className="w-8 h-8 text-gray-900" />
-        </button>
+        {!isHomePage ? (
+          // Si ce n'est pas la page d'accueil, afficher "Retour" plutôt que le menu burger
+          <Link to="/" className="text-xl font-[Orbitron]">
+            Retour
+          </Link>
+        ) : (
+          <button onClick={() => setIsNavOpen(true)} aria-label="Ouvrir le menu">
+            <MenuIcon className="w-8 h-8 text-gray-900" />
+          </button>
+        )}
 
         {/* Overlay mobile */}
         <div
-          className={`fixed top-0 left-0 w-full h-full z-40 bg-black/50 transition-opacity duration-300 ${
-            isNavOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
-          }`}
+          className={`fixed top-0 left-0 w-full h-full z-40 bg-black/50 transition-opacity duration-300 ${isNavOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
         >
           <div
             ref={overlayRef}
-            className={`fixed top-0 left-0 w-full h-[80vh] bg-gray-800 backdrop-blur-md flex flex-col items-center justify-center z-50 transition-transform duration-500 ease-out ${
-              isNavOpen ? "translate-y-0" : "-translate-y-full"
-            }`}
+            className={`fixed top-0 left-0 w-full h-[80vh] bg-gray-800 backdrop-blur-md flex flex-col items-center justify-center z-50 transition-transform duration-500 ease-out ${isNavOpen ? "translate-y-0" : "-translate-y-full"}`}
           >
             {/* Bouton Fermer */}
             <button

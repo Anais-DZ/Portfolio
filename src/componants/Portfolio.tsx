@@ -9,7 +9,7 @@ function Portfolio() {
             Image="verifScreenShot.webp"
             Title="🔗 Ver'ify Compost"
             Link="http://verify-compost.vercel.app/"
-            ButtonHref="/#"
+            ButtonHref="/verifycompost"
             Description="Un site mobile sur le compostage"
           />
           <ProjectCard
