@@ -1,22 +1,18 @@
 import { Project } from "../types/models";
+import MoreInfos from "./MoreInfos";
 
-interface ProjectCardProps extends Project {
-    Button?: string; // si le texte du bouton est en plus du href
-}
+interface ProjectCardProps extends Project { } //mettre cette ligne de code pour récupérer les props de Project
 
 const ProjectCard = ({
     Image,
     Title,
     Description,
-    TitleHref,
-    ButtonHref,
-    Button
+    Link,
+    ButtonHref
 }: ProjectCardProps) => {
-
 
     return (
         <>
-            {/*  */}
             <div className="w-full rounded-md bg-gradient p-2 m-0 lg:m-0">
 
                 <div className="overflow-hidden rounded-sm bg-stone-900/30 backdrop-blur-md p-2 lg:p-2 shadow-1 duration-300">
@@ -26,30 +22,23 @@ const ProjectCard = ({
                     <div className="text-center sm:p-4 md:p-4 lg:p-4">
                         <h3>
                             <a
-                                href={TitleHref ? TitleHref : "#"}
-                                className="my-4 block text-xl font-semibold text-white hover:text-primary dark:text-white sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                                href={Link}
+                                className="mt-4 block text-xl font-semibold text-white lg:hover:scale-105 lg:transition-all lg:duration-300 lg:text-[22px] xl:text-xl 2xl:text-[22px]"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
                                 {Title}
                             </a>
                         </h3>
-                        <p className="mb-7 text-base leading-relaxed text-body-color text-white">
+                        <p className="mb-2 text-base leading-relaxed text-body-color text-white">
                             {Description}
                         </p>
 
-                        {Button && (
-                            <a
-                                href={ButtonHref ? ButtonHref : "#"}
-                                className="inline-block rounded-full border border-gray-3 px-7 py-2 text-base font-medium text-body-color transition hover:border-primary hover:bg-primary hover:text-pink-800  text-white"
-                            >
-                                {Button}
-                            </a>
-                        )}
+                        <MoreInfos href={ButtonHref} className="mt-4" />
+
                     </div>
                 </div>
             </div>
-            {/*  */}
         </>
     );
 };

@@ -1,7 +1,8 @@
+
 export interface Project {
     Image: string;
     Title: string;
     Description :string;
-    TitleHref: string;
+    Link: string;
     ButtonHref: string;
 }

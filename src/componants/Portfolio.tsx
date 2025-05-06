@@ -8,50 +8,44 @@ function Portfolio() {
           <ProjectCard
             Image="verifScreenShot.webp"
             Title="🔗 Ver'ify Compost"
-            TitleHref="http://verify-compost.vercel.app/"
+            Link="http://verify-compost.vercel.app/"
             ButtonHref="/#"
             Description="Un site mobile sur le compostage"
-            Button="+ d'infos à venir..."
           />
           <ProjectCard
             Image="verifScreenAdmin.webp"
             Title="🔗 Ver'ify Admin"
-            TitleHref="https://verify-admin.onrender.com/"
+            Link="https://verify-admin.onrender.com/"
             ButtonHref="/#"
             Description="Site Admin de Ver'ify Compost"
-            Button="+ d'infos à venir..."
           />
           <ProjectCard
             Image="apiWaste.webp"
             Title="🔗 API Waste"
-            TitleHref="https://api-waste.onrender.com/"
+            Link="https://api-waste.onrender.com/"
             ButtonHref="/#"
             Description="API pour le fonctionnement du site Ver'ify Compost"
-            Button="+ d'infos à venir..."
           />
           <ProjectCard
             Image="tictactoe.webp"
             Title="🔗 Tic Tac Toe Arena"
-            TitleHref="https://xo-arena.vercel.app/"
+            Link="https://xo-arena.vercel.app/"
             ButtonHref="/#"
             Description="Le jeu Tic Tac Toe sur mobile"
-            Button="+ d'infos à venir..."
           />
           <ProjectCard
             Image="cv.webp"
             Title="🔗 CV en ligne"
-            TitleHref="https://cv-adiez.vercel.app/"
+            Link="https://cv-adiez.vercel.app/"
             ButtonHref="/#"
             Description="Mon CV en ligne pour tout type d'écran"
-            Button="+ d'infos à venir..."
           />
           <ProjectCard
             Image="firstpage.webp"
             Title="🔗 Mon premier portfolio"
-            TitleHref="https://anais-diez.vercel.app/"
+            Link="https://anais-diez.vercel.app/"
             ButtonHref="/#"
             Description="Mon premier portfolio inspiré de Linktree"
-            Button="+ d'infos à venir..."
           />
         </div>
       </div>

@@ -27,7 +27,7 @@ function Header() {
 
       {/* Menu Desktop */}
       <nav className="hidden lg:flex font-[Orbitron]">
-        <ul className="flex space-x-8 text-xl text-gray-900">
+        <ul className="flex space-x-8 text-xl">
           <li><a href="#about">À propos de moi</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>

@@ -8,6 +8,7 @@
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Montserrat', sans-serif;
     background-color: white;
+    color: var(--primary-color);
   }
 
   html {
@@ -45,11 +46,11 @@
 
   /* Variables CSS personnalisées */
   :root {
-    --primary-color: #7c86ff;
-    --primary-hover: #73DCE8;
+    --primary-color: #343434;;
+    --primary-hover: #3c4647;
     --secondary-color: #FFFF;
     --secondary-hover: #e00a6e;
-    --text-color: #333;
+    --text-color: #1c1b1b;
     --background-color: #f5f5f5;
     --header-background: #282c34;
     --header-text: white;
