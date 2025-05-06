@@ -1,7 +1,6 @@
 import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { FaBootstrap } from "react-icons/fa";
-import { FaWordpress } from "react-icons/fa";
+import { FaBootstrap, FaWordpress } from "react-icons/fa";
 
 
 function Frameworks() {

@@ -1,8 +1,6 @@
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaDatabase } from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
 import { SiPhp } from "react-icons/si";
-import { FaDatabase } from "react-icons/fa";
 
 
 function Languages() {
