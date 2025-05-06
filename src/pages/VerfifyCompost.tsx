@@ -8,7 +8,7 @@ function VerifyCompost() {
         <>
             <Header />
 
-            <h2 className="font-[Orbitron] my-12 text-2xl"> EN CONSTRUCTION</h2>
+            <h2 className="my-12 text-2xl"> EN CONSTRUCTION</h2>
 
             <Footer />
         </>
