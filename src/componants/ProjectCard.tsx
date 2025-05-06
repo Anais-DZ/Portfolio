@@ -8,7 +8,8 @@ const ProjectCard = ({
     Title,
     Description,
     Link,
-    ButtonHref
+    ButtonHref,
+    TitleButton
 }: ProjectCardProps) => {
 
     return (
@@ -34,7 +35,7 @@ const ProjectCard = ({
                             {Description}
                         </p>
 
-                        <MoreInfos href={ButtonHref} className="mt-4" />
+                        <MoreInfos href={ButtonHref} label={TitleButton} className="mt-4" />
 
                     </div>
                 </div>

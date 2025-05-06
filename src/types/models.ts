@@ -4,4 +4,5 @@ export interface Project {
     Description :string;
     Link: string;
     ButtonHref: string;
+    TitleButton: string;
 }
