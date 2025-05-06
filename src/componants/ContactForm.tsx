@@ -2,7 +2,7 @@ function ContactForm() {
 
     return (
         <>
-            <div className="px-5 py-8 mx-2 lg:mx-auto my-12 bg-stone-400/10 backdrop-blur-md">
+            <div className="px-5 py-8 mx-2 lg:mx-auto my-12 bg-stone-400/20 backdrop-blur-md">
                 <div className="flex flex-col text-center w-full mb-12">
                     <h3 className="text-2xl font-[Orbitron]">Formulaire de contact</h3>
                     <p className="lg:w-2/3 mx-auto text-lg">
@@ -24,7 +24,7 @@ function ContactForm() {
                                     type="text"
                                     id="name"
                                     name="name"
-                                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-pink-700 text-base outline-none text-gray-800 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                    className="w-full bg-white rounded border border-gray-300 focus:border-pink-700 text-base outline-none text-gray-800 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                     maxLength={30}
                                     minLength={3}
                                     required
@@ -41,7 +41,7 @@ function ContactForm() {
                                     type="email"
                                     id="email"
                                     name="email"
-                                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-pink-700 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                    className="w-full bg-white rounded border border-gray-300 focus:border-pink-700 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                     maxLength={30}
                                     minLength={5}
                                     required
@@ -57,7 +57,7 @@ function ContactForm() {
                                 <textarea
                                     id="message"
                                     name="message"
-                                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-pink-700 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                                    className="w-full bg-white rounded border border-gray-300 focus:border-pink-700 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                                     maxLength={600}
                                     minLength={5}
                                     required
