@@ -12,9 +12,9 @@ function VerifyCompost() {
             <h2 className="my-12 text-2xl"> EN CONSTRUCTION</h2>
             <LayoutProject
                 Image={["/verifScreenShot.webp", "/verifScreenShot2.webp"]} 
-                Title={""} 
+                Title={"Lien Github de Ver'ify Compost"} 
                 Description={""} 
-                Link={""} 
+                Link={"https://github.com/Anais-DZ/Verify-compost"} 
                 ButtonHref={""}
             />
 
