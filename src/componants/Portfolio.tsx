@@ -6,42 +6,42 @@ function Portfolio() {
       <div className="max-w-7xl mx-auto">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <ProjectCard
-            Image="verifScreenShot.webp"
+            Image={["verifScreenShot.webp"]}
             Title="🔗 Ver'ify Compost"
             Link="http://verify-compost.vercel.app/"
             ButtonHref="/verifycompost"
             Description="Un site mobile sur le compostage"
           />
           <ProjectCard
-            Image="verifScreenAdmin.webp"
+            Image={["verifScreenAdmin.webp"]}
             Title="🔗 Ver'ify Admin"
             Link="https://verify-admin.onrender.com/"
             ButtonHref="/#"
             Description="Site Admin de Ver'ify Compost"
           />
           <ProjectCard
-            Image="apiWaste.webp"
+            Image={["apiWaste.webp"]}
             Title="🔗 API Waste"
             Link="https://api-waste.onrender.com/"
             ButtonHref="/#"
             Description="API pour le fonctionnement du site Ver'ify Compost"
           />
           <ProjectCard
-            Image="tictactoe.webp"
+            Image={["tictactoe.webp"]}
             Title="🔗 Tic Tac Toe Arena"
             Link="https://xo-arena.vercel.app/"
             ButtonHref="/#"
             Description="Le jeu Tic Tac Toe sur mobile"
           />
           <ProjectCard
-            Image="cv.webp"
+            Image={["cv.webp"]}
             Title="🔗 CV en ligne"
             Link="https://cv-adiez.vercel.app/"
             ButtonHref="/#"
             Description="Mon CV en ligne pour tout type d'écran"
           />
           <ProjectCard
-            Image="firstpage.webp"
+            Image={["firstpage.webp"]}
             Title="🔗 Mon premier portfolio"
             Link="https://anais-diez.vercel.app/"
             ButtonHref="/#"

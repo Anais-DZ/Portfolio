@@ -1,7 +1,7 @@
 import { Project } from "../types/models";
 import MoreInfos from "./MoreInfos";
 
-interface ProjectCardProps extends Project { } //mettre cette ligne de code pour récupérer les props de Project
+interface ProjectCardProps extends Project {} //mettre cette ligne de code pour récupérer les props de Project
 
 const ProjectCard = ({
     Image,
@@ -17,7 +17,7 @@ const ProjectCard = ({
 
                 <div className="overflow-hidden rounded-sm bg-stone-900/30 backdrop-blur-md p-2 lg:p-2 shadow-1 duration-300">
 
-                    <img src={Image} alt="" className="w-full" />
+                    <img src={Image[0]} alt="" className="w-full" />
 
                     <div className="text-center sm:p-4 md:p-4 lg:p-4">
                         <h3>
