@@ -7,48 +7,48 @@ function Portfolio() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <ProjectCard
             Image={["verifScreenShot.webp"]}
-            Title="🔗 Ver'ify Compost"
-            Link="http://verify-compost.vercel.app/"
+            Title={["🔗 Ver'ify Compost"]}
+            Link={["http://verify-compost.vercel.app/"]}
             ButtonHref="/verifycompost"
             Description="Un site mobile sur le compostage"
             TitleButton="Voir le projet"
           />
           <ProjectCard
             Image={["verifScreenAdmin.webp"]}
-            Title="🔗 Ver'ify Admin"
-            Link="https://verify-admin.onrender.com/"
+            Title={["🔗 Ver'ify Admin"]}
+            Link={["https://verify-admin.onrender.com/"]}
             ButtonHref="/#"
             Description="Site Admin de Ver'ify Compost"
             TitleButton="+ d'infos à venir"
           />
           <ProjectCard
             Image={["apiWaste.webp"]}
-            Title="🔗 API Waste"
-            Link="https://api-waste.onrender.com/"
+            Title={["🔗 API Waste"]}
+            Link={["https://api-waste.onrender.com/"]}
             ButtonHref="/#"
             Description="API pour le fonctionnement du site Ver'ify Compost"
             TitleButton="+ d'infos à venir"
           />
           <ProjectCard
             Image={["tictactoe.webp"]}
-            Title="🔗 Tic Tac Toe Arena"
-            Link="https://xo-arena.vercel.app/"
+            Title={["🔗 Tic Tac Toe Arena"]}
+            Link={["https://xo-arena.vercel.app/"]}
             ButtonHref="/#"
             Description="Le jeu Tic Tac Toe sur mobile"
             TitleButton="+ d'infos à venir"
           />
           <ProjectCard
             Image={["cv.webp"]}
-            Title="🔗 CV en ligne"
-            Link="https://cv-adiez.vercel.app/"
+            Title={["🔗 CV en ligne"]}
+            Link={["https://cv-adiez.vercel.app/"]}
             ButtonHref="/#"
             Description="Mon CV en ligne pour tout type d'écran"
             TitleButton="+ d'infos à venir"
           />
           <ProjectCard
             Image={["firstpage.webp"]}
-            Title="🔗 Mon premier portfolio"
-            Link="https://anais-diez.vercel.app/"
+            Title={["🔗 Mon premier portfolio"]}
+            Link={["https://anais-diez.vercel.app/"]}
             ButtonHref="/#"
             Description="Mon premier portfolio inspiré de Linktree"
             TitleButton="+ d'infos à venir"

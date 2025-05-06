@@ -23,7 +23,7 @@ const ProjectCard = ({
                     <div className="text-center sm:p-4 md:p-4 lg:p-4">
                         <h3>
                             <a
-                                href={Link}
+                                href={Link[0]}
                                 className="mt-4 block text-xl font-semibold text-white lg:hover:scale-105 lg:transition-all lg:duration-300 lg:text-[22px] xl:text-xl 2xl:text-[22px]"
                                 target="_blank"
                                 rel="noopener noreferrer"
