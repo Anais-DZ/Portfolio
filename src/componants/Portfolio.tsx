@@ -10,7 +10,7 @@ function Portfolio() {
             Title={["🔗 Ver'ify Compost"]}
             Link={["http://verify-compost.vercel.app/"]}
             ButtonHref="/verifycompost"
-            Description="Un site mobile sur le compostage"
+            Description="Un site mobile sur l'aide au tri des déchets compostables"
             TitleButton="Voir le projet"
           />
           <ProjectCard
