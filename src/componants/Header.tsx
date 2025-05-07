@@ -40,7 +40,7 @@ function Header() {
   }, [isNavOpen]);
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-white border-b border-gray-400">
+    <header className="fixed top-0 left-0 w-full z-50 bg-white/60 border-b border-gray-400 backdrop-blur-md">
       <div className="flex items-center justify-between max-w-7xl mx-auto px-5 py-3 lg:px-0 lg:py-5">
 
       {isHomePage ? (
