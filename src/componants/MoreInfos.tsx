@@ -3,8 +3,8 @@ interface MoreInfosProps {
     className?: string;
     label?: string;
     disabled?: boolean;
-    target: string;
-    rel: string;
+    target?: string;
+    rel?: string;
 }
 
 const MoreInfos = ({
