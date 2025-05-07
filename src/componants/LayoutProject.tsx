@@ -16,7 +16,7 @@ const LayoutProject = ({
 }: LayoutProjectProps) => {
 
     return (
-        <div className="w-full bg-gradient p-2 my-4 lg:my-8 lg:mx-2">
+        <div className="w-full bg-gradient p-2 mt-18 mb-6 lg:my-20 lg:mx-2">
 
             <div className="bg-stone-900/30 backdrop-blur-md p-2 lg:p-2 shadow-1 ">
 

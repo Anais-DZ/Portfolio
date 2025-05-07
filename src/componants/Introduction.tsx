@@ -5,7 +5,7 @@ function Introduction() {
     return (
         <>
 
-            <section className="flex items-center justify-center  bg-presentation mt-8 lg:mx-0">
+            <section id="intro" className="flex items-center justify-center bg-presentation mt-22 lg:mx-0">
 
                 {/* Fond flou rectangulaire */}
                 <div className="relative w-full max-w-6xl p-4 m-2 mt-16 mb-12 lg:p-8  lg:mt-22 bg-stone-900/50 backdrop-blur-md">
