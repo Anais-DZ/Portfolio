@@ -1,7 +1,7 @@
 import { Project } from "../types/models";
 import MoreInfos from "./MoreInfos";
 
-interface ProjectCardProps extends Project {} //mettre cette ligne de code pour récupérer les props de Project
+interface ProjectCardProps extends Project { } //mettre cette ligne de code pour récupérer les props de Project
 
 const ProjectCard = ({
     Image,
@@ -35,7 +35,12 @@ const ProjectCard = ({
                             {Description}
                         </p>
 
-                        <MoreInfos href={ButtonHref} label={TitleButton} className="mt-4" />
+                        <MoreInfos
+                            href={ButtonHref}
+                            label={TitleButton}
+                            className="mt-4"
+                            disabled={!ButtonHref}
+                        />
 
                     </div>
                 </div>

@@ -6,23 +6,26 @@ import { BiLogoJavascript } from "react-icons/bi";
 
 interface LayoutProjectProps extends Project { }
 
-
 const LayoutProject = ({
     Image,
     Title,
     Description,
     Link,
-    ButtonHref
+    ButtonHref,
+    TitleButton,
 }: LayoutProjectProps) => {
 
     return (
         <div className="w-full bg-gradient p-2 m-2 lg:my-8">
 
-            <div className="overflow-hidden  bg-stone-900/30 backdrop-blur-md p-2 lg:p-2 shadow-1 duration-300">
+            <div className="overflow-hidden bg-stone-900/30 backdrop-blur-md p-2 lg:p-2 shadow-1 duration-300">
+
+                <ImageGallery Image={Image} />
+
                 <h3>
                     <a
                         href={Link[0]}
-                        className="mt-10 underline underline-offset-3 block text-xl text-white font-semibold lg:hover:scale-105 lg:transition-all lg:duration-300 lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                        className="mt-10 block text-xl text-white font-semibold lg:hover:scale-105 lg:transition-all lg:duration-300 lg:text-2xl"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -30,54 +33,64 @@ const LayoutProject = ({
                     </a>
                 </h3>
 
-                <ImageGallery Image={Image} />
+                <div className="px-2 lg:p-10 text-white text-start">
 
+                    <div className="py-6 text-base ">
+                        <p className="mb-4">
+                            {Description[0]}
+                        </p>
 
-                {/*ligne des icones avec leurs noms*/}
-                <p className="text-white lg:ml-6 mb-2 mt-4 lg:mt-10 text-lg text-start">
-                    Développé avec :
-                </p>
-                <div className="flex justify-start items-center lg:ml-6">
+                        <p className="mb-2">
+                            {Description[1]}
+                        </p>
 
-                    <div className="flex flex-col items-center mr-4">
-                        <FaHtml5 className="lg:w-8 lg:h-8 w-7 h-7 text-white" />
-                        <p className="text-white text-sm">
-                            HTML
+                        <p className="mb-2">
+                            {Description[2]}
                         </p>
                     </div>
-                    <div className="flex flex-col items-center mr-4">
-                        <FaCss3Alt className="lg:w-8 lg:h-8 w-7 h-7 text-white" />
-                        <p className="text-white text-sm">
-                            CSS
-                        </p>
+
+                    {/*ligne des icones avec leurs noms*/}
+                    <p className=" mb-2 mt-4 text-lg text-justify">
+                        Développé avec :
+                    </p>
+                    <div className="flex justify-start items-center">
+
+                        <div className="flex flex-col items-center mr-4">
+                            <FaHtml5 className="lg:w-8 lg:h-8 w-7 h-7 " />
+                            <p className=" text-sm">
+                                HTML
+                            </p>
+                        </div>
+                        <div className="flex flex-col items-center mr-4">
+                            <FaCss3Alt className="lg:w-8 lg:h-8 w-7 h-7 " />
+                            <p className=" text-sm">
+                                CSS
+                            </p>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <BiLogoJavascript className="lg:w-8 lg:h-8 w-7 h-7 " />
+                            <p className=" text-sm">
+                                JS
+                            </p>
+                        </div>
                     </div>
-                    <div className="flex flex-col items-center">
-                        <BiLogoJavascript className="lg:w-8 lg:h-8 w-7 h-7 text-white" />
-                        <p className="text-white text-sm">
-                            JS
-                        </p>
-                    </div>
+                    <p className="mt-4">
+                        {Description[3]}
+                    </p>
                 </div>
 
-                <h3 className="text-start lg:ml-6 lg:mt-10">
-                    <a
-                        href={Link[1]}
-                        className="mt-4 block text-xl font-semibold text-white lg:hover:scale-105 lg:transition-all lg:duration-300 lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                {/* Affichage conditionnel du bouton MoreInfos */}
+                {ButtonHref && TitleButton && (
+                    <MoreInfos
+                        href={ButtonHref}
+                        label={TitleButton}
+                        className="my-8 lg:mb-12 inline-block rounded-full px-7 py-2 text-base font-semibold transition "
                         target="_blank"
                         rel="noopener noreferrer"
-                    >
-                        {Title[1]}
-                    </a>
-                </h3>
-                <p className="mb-2 text-base leading-relaxed text-body-color">
-                    {Description}
-                </p>
-
-                <MoreInfos href={ButtonHref} className="mt-20 mb-10 lg:mb-8 lg:mt-20" />
+                    />
+                )}
             </div>
         </div>
-
-
     );
 }
 

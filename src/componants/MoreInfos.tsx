@@ -1,18 +1,36 @@
 interface MoreInfosProps {
-    href: string;
+    href?: string;
     className?: string;
     label?: string;
+    disabled?: boolean;
+    target: string;
+    rel: string;
 }
 
 const MoreInfos = ({
     href,
     className = "",
     label = "+ d'infos à venir...",
+    disabled = false,
+    target,
+    rel,
 }: MoreInfosProps) => {
     return (
         <a
-            href={href}
-            className={`inline-block rounded-full border mb-2 lg:mt-4 lg:mb-0 bg-white px-7 py-2 text-base font-semibold text-body-color transition hover:border-primary hover:bg-transparent hover:text-white hover:border-white text-stone-900 ${className}`}
+            href={disabled ? undefined : href}
+            className={`
+                inline-block rounded-full no-border mb-2 lg:mt-4 lg:mb-0 
+                px-7 py-2 text-base font-semibold transition 
+                ${disabled
+                    ? "bg-gray-400 text-white"
+                    : "bg-white text-stone-900 border hover:border-white hover:bg-transparent hover:text-white"
+                }
+                ${className}
+            `}
+            onClick={(e) => disabled && e.preventDefault()}
+            aria-disabled={disabled}
+            target={target}
+            rel={rel}
         >
             {label}
         </a>
