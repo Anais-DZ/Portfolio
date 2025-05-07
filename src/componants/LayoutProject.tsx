@@ -16,16 +16,16 @@ const LayoutProject = ({
 }: LayoutProjectProps) => {
 
     return (
-        <div className="w-full bg-gradient p-2 m-2 lg:my-8">
+        <div className="w-full bg-gradient p-2 my-4 lg:my-8 lg:mx-2">
 
-            <div className="overflow-hidden bg-stone-900/30 backdrop-blur-md p-2 lg:p-2 shadow-1 duration-300">
+            <div className="bg-stone-900/30 backdrop-blur-md p-2 lg:p-2 shadow-1 ">
 
                 <ImageGallery Image={Image} />
 
                 <h3>
                     <a
                         href={Link[0]}
-                        className="mt-10 block text-xl text-white font-semibold lg:hover:scale-105 lg:transition-all lg:duration-300 lg:text-2xl"
+                        className="mt-10 text-xl text-white font-semibold lg:hover:scale-105 lg:transition-all lg:duration-300 lg:text-2xl"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
