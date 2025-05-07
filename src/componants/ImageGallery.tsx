@@ -32,13 +32,13 @@ function ImageGallery({ Image }: ImageGalleryProps) {
 
             {selectedImage && (
                 <div
-                    className="fixed inset-0 bg-black/80 flex items-center justify-center z-50"
+                    className="fixed inset-0 bg-black/80 flex items-start justify-center z-50"
                     onClick={closeOverlay}
                 >
                     <img
                         src={selectedImage}
                         alt="Agrandie"
-                        className="max-w-[90vw] lg:max-h-[90vh] shadow-xl"
+                        className="max-w-[90vw] lg:max-h-[90vh] shadow-xl mt-[50vw] lg:mt-[10vw]"
                     />
                 </div>
             )}
