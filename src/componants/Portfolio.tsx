@@ -49,7 +49,7 @@ function Portfolio() {
             Image={["gryphiq.webp"]}
             Link="https://api-waste.onrender.com/"
             ButtonHref="/gryphiq"
-            Description={["Gryphiq, projet réalisé durant mon stage en collaboration"]}
+            Description={["Gryphiq, projet réalisé en collaboration durant mon stage"]}
             TitleButton="Voir le projet"
           />
           <ProjectCard
