@@ -8,7 +8,7 @@ function Languages() {
     return (
 
         <div>
-            <h3 className="text-lg lg:text-2xl">
+            <h3 className="text-lg lg:text-2xl text-center">
                 Langages
             </h3>
 

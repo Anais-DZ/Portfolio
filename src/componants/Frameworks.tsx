@@ -8,7 +8,7 @@ function Frameworks() {
     return (
 
         <div>
-            <h3 className="text-lg mt-6 lg:text-2xl lg:mt-0">
+            <h3 className="text-lg mt-6 lg:text-2xl lg:mt-0 text-center">
                 Frameworks
             </h3>
 
