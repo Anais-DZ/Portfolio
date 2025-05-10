@@ -18,7 +18,7 @@ function Portfolio() {
             Title={["🔗 Ver'ify Admin"]}
             Link="https://verify-admin.onrender.com/"
             ButtonHref="/verifyadmin"
-            Description={["Site administrateur de Ver'ify Compost"]}
+            Description={["Site administrateur de Ver'ify Compost pour l'ajout de données"]}
             TitleButton="Voir le projet"
           />
           <ProjectCard
