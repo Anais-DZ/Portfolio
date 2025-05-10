@@ -24,9 +24,9 @@ const LayoutProject = ({
 
                 <div className="flex flex-col items-center">
                     <h3 className="m-6 text-xl text-white font-semibold lg:hover:scale-105 lg:transition-all lg:duration-300 lg:text-2xl">
-                        {Link && Link[0] ? (
+                        {Link ? (
                             <a
-                                href={Link[0]}
+                                href={Link}
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
