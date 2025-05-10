@@ -19,7 +19,7 @@ function NetworkLinks({ className }: NetworkLinksProps) {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FaGithub className="w-7 h-7" />
+                    <FaGithub className="w-7 h-7 lg:w-9 lg:h-9" />
                 </a>
                 <a
                     href="https://www.linkedin.com/in/anaïs-diez"
@@ -27,7 +27,7 @@ function NetworkLinks({ className }: NetworkLinksProps) {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FaLinkedin className="w-7 h-7" />
+                    <FaLinkedin className="w-7 h-7 lg:w-9 lg:h-9" />
                 </a>
                 <a
                     href="https://cv-adiez.vercel.app/"
@@ -35,13 +35,13 @@ function NetworkLinks({ className }: NetworkLinksProps) {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <TbFileCv className="w-7 h-7" />
+                    <TbFileCv className="w-7 h-7 lg:w-9 lg:h-9" />
                 </a>
                 <a
                     href="#contact"
                     aria-label="Me contacter"
                 >
-                    <FaEnvelope className="w-7 h-7" />
+                    <FaEnvelope className="w-7 h-7 lg:w-9 lg:h-9" />
                 </a>
             </nav>
         </>

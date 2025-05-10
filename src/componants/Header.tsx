@@ -7,8 +7,18 @@ function Header() {
   const overlayRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
   const navigate = useNavigate();
-
   const isHomePage = location.pathname === "/";
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50); // seuil de scroll pour changer le texte
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
 
   // Fonction pour gérer le retour
   const handleBack = () => {
@@ -21,7 +31,7 @@ function Header() {
 
   // Fonction pour gérer le retour
   const handleGoHome = () => {
-      navigate("/");
+    navigate("/");
   };
 
   useEffect(() => {
@@ -43,11 +53,33 @@ function Header() {
     <header className="fixed top-0 left-0 w-full z-50 bg-white/60 border-b border-gray-400 backdrop-blur-md">
       <div className="flex items-center justify-between max-w-7xl mx-auto px-5 py-3 lg:px-0 lg:py-5">
 
-      {isHomePage ? (
-        <a href="#intro" className="font-[Orbitron] text-xl hover:text-pink-600">Anaïs DIEZ</a>
-      ) : (
-        <button onClick={handleGoHome} className=" font-[Orbitron] text-xl cursor-pointer">Anaïs DIEZ</button>
-      )}
+        {/* changement du nom du bouton accueil lors du scroll */}
+        {isHomePage ? (
+          <button
+            onClick={handleGoHome}
+            className="font-[Orbitron] text-xl hover:text-pink-600 relative inline-block w-[130px] h-6 text-center"
+          >
+            <span
+              className={`absolute left-0 top-0 w-full transition-opacity duration-300 ${isScrolled ? "opacity-0" : "opacity-100"
+                }`}
+            >
+              Anaïs DIEZ
+            </span>
+            <span
+              className={`absolute left-0 top-0 w-full transition-opacity duration-300 ${isScrolled ? "opacity-100" : "opacity-0"
+                }`}
+            >
+              Accueil
+            </span>
+          </button>
+        ) : (
+          <button
+            onClick={handleGoHome}
+            className="font-[Orbitron] text-xl cursor-pointer"
+          >
+            Accueil
+          </button>
+        )}
 
         {/* Menu Desktop */}
         {isHomePage ? (
