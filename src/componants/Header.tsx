@@ -31,7 +31,10 @@ function Header() {
 
   // Fonction pour gérer le retour
   const handleGoHome = () => {
-    navigate("/");
+    navigate("/", { replace: false });
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 100); // petit délai pour laisser le temps au DOM de s'actualiser
   };
 
   useEffect(() => {
@@ -54,24 +57,18 @@ function Header() {
       <div className="flex items-center justify-between max-w-7xl mx-auto px-5 py-3 lg:px-0 lg:py-5">
 
         {/* changement du nom du bouton accueil lors du scroll */}
-          <a
-            href="#intro"
-            onClick={handleGoHome}
-            className="font-[Orbitron] text-xl hover:text-pink-600 relative inline-block w-[130px] h-6 text-center"
-          >
-            <span
-              className={`absolute left-0 top-0 w-full transition-opacity duration-300 ${isScrolled ? "opacity-0" : "opacity-100"
-                }`}
-            >
-              Anaïs DIEZ
-            </span>
-            <span
-              className={`absolute left-0 top-0 w-full transition-opacity duration-300 ${isScrolled ? "opacity-100" : "opacity-0"
-                }`}
-            >
-              Accueil
-            </span>
-          </a>
+        <button
+          onClick={handleGoHome}
+          className="font-[Orbitron] text-xl hover:text-pink-600 relative inline-block w-[130px] h-6 text-center cursor-pointer"
+        >
+          <span className={`absolute left-0 top-0 w-full transition-opacity duration-300 ${isScrolled ? "opacity-0" : "opacity-100"}`}>
+            Anaïs DIEZ
+          </span>
+          <span className={`absolute left-0 top-0 w-full transition-opacity duration-300 ${isScrolled ? "opacity-100" : "opacity-0"}`}>
+            Accueil
+          </span>
+        </button>
+
 
         {/* Menu Desktop */}
         {isHomePage ? (

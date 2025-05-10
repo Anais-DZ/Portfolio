@@ -30,11 +30,26 @@ function Portfolio() {
             TitleButton="Voir le projet"
           />
           <ProjectCard
+            Image={["portfolio.webp"]}
+            Title={["🔗 Portfolio"]}
+            Link={["https://anaisdiez.vercel.app/"]}
+            ButtonHref="/portfolio"
+            Description={["Refonte moderne de mon portfolio"]}
+            TitleButton="Voir le projet"
+          />
+          <ProjectCard
             Image={["tictactoe.webp"]}
             Title={["🔗 Tic Tac Toe Arena"]}
             Link={["https://xo-arena.vercel.app/"]}
             ButtonHref="/tictactoe"
             Description={["Le célèbre jeu du Tic Tac Toe"]}
+            TitleButton="Voir le projet"
+          />
+          <ProjectCard
+            Image={["gryphiq.webp"]}
+            Link={["https://api-waste.onrender.com/"]}
+            ButtonHref="/gryphiq"
+            Description={["Gryphiq, projet réalisé durant mon stage en collaboration"]}
             TitleButton="Voir le projet"
           />
           <ProjectCard

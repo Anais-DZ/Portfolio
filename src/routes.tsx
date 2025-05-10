@@ -5,6 +5,8 @@ import VerifyCompost from './pages/VerfifyCompost';
 import TicTacToe from './pages/TicTacToe';
 import VerifyAdmin from './pages/VerifyAdmin';
 import ApiWaste from './pages/ApiWaste';
+import PortfolioPage from './pages/PortfolioPage';
+import Gryphiq from './pages/Gryphiq';
 
 const AppRoutes: React.FC = () => {
     return (
@@ -15,7 +17,9 @@ const AppRoutes: React.FC = () => {
             <Route path="/verifycompost" element={<VerifyCompost />} />
             <Route path="/verifyadmin" element={<VerifyAdmin />} />
             <Route path="/apiwaste" element={<ApiWaste />} />
+            <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/tictactoe" element={<TicTacToe />} />
+            <Route path="/gryphiq" element={<Gryphiq />} />
 
         </Routes>
     );

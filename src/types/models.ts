@@ -1,8 +1,8 @@
 export interface Project {
     Image: string[];
-    Title: string[];
+    Title?: string[];
     Description: string[];
-    Link: string[];
+    Link?: string[];
     ButtonHref?: string;
     TitleButton?: string;
 }

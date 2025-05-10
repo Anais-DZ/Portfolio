@@ -24,13 +24,17 @@ const LayoutProject = ({
 
                 <div className="flex flex-col items-center">
                     <h3 className="m-6 text-xl text-white font-semibold lg:hover:scale-105 lg:transition-all lg:duration-300 lg:text-2xl">
-                        <a
-                            href={Link[0]}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            {Title[0]}
-                        </a>
+                        {Link && Link[0] ? (
+                            <a
+                                href={Link[0]}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {Title}
+                            </a>
+                        ) : (
+                            Title // Si Link n'existe pas, on affiche juste le titre sans lien
+                        )}
                     </h3>
 
                     <div className="px-2 lg:p-10 text-white text-justify">
