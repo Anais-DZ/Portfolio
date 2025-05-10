@@ -55,7 +55,8 @@ function Header() {
 
         {/* changement du nom du bouton accueil lors du scroll */}
         {isHomePage ? (
-          <button
+          <a
+            href="#intro"
             onClick={handleGoHome}
             className="font-[Orbitron] text-xl hover:text-pink-600 relative inline-block w-[130px] h-6 text-center"
           >
@@ -71,7 +72,7 @@ function Header() {
             >
               Accueil
             </span>
-          </button>
+          </a>
         ) : (
           <button
             onClick={handleGoHome}
