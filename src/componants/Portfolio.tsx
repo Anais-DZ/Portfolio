@@ -25,9 +25,9 @@ function Portfolio() {
             Image={["apiWaste.webp"]}
             Title={["🔗 API Waste"]}
             Link={["https://api-waste.onrender.com/"]}
-            ButtonHref=""
+            ButtonHref="/apiwaste"
             Description={["API pour le fonctionnement du site Ver'ify Compost"]}
-            TitleButton="+ d'infos à venir"
+            TitleButton="Voir le projet"
           />
           <ProjectCard
             Image={["tictactoe.webp"]}

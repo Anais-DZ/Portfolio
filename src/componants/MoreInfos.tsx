@@ -10,7 +10,7 @@ interface MoreInfosProps {
 const MoreInfos = ({
     href,
     className = "",
-    label = "+ d'infos à venir...",
+    label = "",
     disabled = false,
     target,
     rel,
