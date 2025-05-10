@@ -1,9 +1,17 @@
 import Header from "../componants/Header";
 import LayoutProject from "../componants/LayoutProject";
 import Footer from "../componants/Footer";
+import { FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { BiLogoJavascript } from "react-icons/bi";
 
 
 function VerifyCompost() {
+    // Liste des icônes spécifiques pour ce projet
+  const techItems = [
+    { icon: <FaHtml5 className="lg:w-8 lg:h-8 w-7 h-7" />, label: "HTML" },
+    { icon: <FaCss3Alt className="lg:w-8 lg:h-8 w-7 h-7" />, label: "CSS" },
+    { icon: <BiLogoJavascript className="lg:w-8 lg:h-8 w-7 h-7" />, label: "JS" },
+  ];
 
     return (
         <>
@@ -16,6 +24,7 @@ function VerifyCompost() {
                 Link={["https://verify-compost.vercel.app/"]}
                 ButtonHref="https://github.com/Anais-DZ/Verify-compost"
                 TitleButton="Github de Ver'ify Compost"
+                techItems={techItems}
             />
 
             <Footer />

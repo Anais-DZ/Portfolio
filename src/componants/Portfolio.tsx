@@ -17,9 +17,9 @@ function Portfolio() {
             Image={["verifScreenAdmin.webp"]}
             Title={["🔗 Ver'ify Admin"]}
             Link={["https://verify-admin.onrender.com/"]}
-            ButtonHref=""
-            Description={["Site Admin de Ver'ify Compost"]}
-            TitleButton="+ d'infos à venir"
+            ButtonHref="/verifyadmin"
+            Description={["Site administrateur de Ver'ify Compost"]}
+            TitleButton="Voir le projet"
           />
           <ProjectCard
             Image={["apiWaste.webp"]}
@@ -33,9 +33,9 @@ function Portfolio() {
             Image={["tictactoe.webp"]}
             Title={["🔗 Tic Tac Toe Arena"]}
             Link={["https://xo-arena.vercel.app/"]}
-            ButtonHref=""
-            Description={["Le jeu Tic Tac Toe sur mobile"]}
-            TitleButton="+ d'infos à venir"
+            ButtonHref="/tictactoe"
+            Description={["Le célèbre jeu du Tic Tac Toe"]}
+            TitleButton="Voir le projet"
           />
           <ProjectCard
             Image={["cv.webp"]}

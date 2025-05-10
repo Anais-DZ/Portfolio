@@ -54,7 +54,6 @@ function Header() {
       <div className="flex items-center justify-between max-w-7xl mx-auto px-5 py-3 lg:px-0 lg:py-5">
 
         {/* changement du nom du bouton accueil lors du scroll */}
-        {isHomePage ? (
           <a
             href="#intro"
             onClick={handleGoHome}
@@ -73,14 +72,6 @@ function Header() {
               Accueil
             </span>
           </a>
-        ) : (
-          <button
-            onClick={handleGoHome}
-            className="font-[Orbitron] text-xl cursor-pointer"
-          >
-            Accueil
-          </button>
-        )}
 
         {/* Menu Desktop */}
         {isHomePage ? (
