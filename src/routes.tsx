@@ -7,6 +7,7 @@ import VerifyAdmin from './pages/VerifyAdmin';
 import ApiWaste from './pages/ApiWaste';
 import PortfolioPage from './pages/PortfolioPage';
 import Gryphiq from './pages/Gryphiq';
+import CV from './pages/CV';
 
 const AppRoutes: React.FC = () => {
     return (
@@ -20,6 +21,7 @@ const AppRoutes: React.FC = () => {
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/tictactoe" element={<TicTacToe />} />
             <Route path="/gryphiq" element={<Gryphiq />} />
+            <Route path="/cv" element={<CV/>} />
 
         </Routes>
     );

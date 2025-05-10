@@ -56,9 +56,9 @@ function Portfolio() {
             Image={["cv.webp"]}
             Title={["🔗 CV en ligne"]}
             Link="https://cv-adiez.vercel.app/"
-            ButtonHref=""
+            ButtonHref="/cv"
             Description={["Mon CV en ligne pour tout type d'écran"]}
-            TitleButton="+ d'infos à venir"
+            TitleButton="Voir le projet"
           />
           <ProjectCard
             Image={["firstpage.webp"]}
