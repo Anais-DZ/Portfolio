@@ -14,9 +14,9 @@ const ProjectCard = ({
 
     return (
         <>
-            <div className="w-full rounded-md bg-gradient p-2 m-0 lg:m-0">
+            <div className="w-full bg-gradient p-2 m-0 lg:m-0">
 
-                <div className="overflow-hidden rounded-sm bg-stone-900/30 backdrop-blur-md p-2 lg:p-2 shadow-1 duration-300">
+                <div className="overflow-hidden bg-stone-900/30 backdrop-blur-md p-2 lg:p-2 shadow-1 duration-300">
 
                     <img src={Image[0]} alt="" className="w-full" />
 
