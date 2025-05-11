@@ -1,6 +1,7 @@
-import { FaHtml5, FaCss3Alt, FaDatabase } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
 import { SiPhp } from "react-icons/si";
+import { RiDatabase2Fill } from "react-icons/ri";
 
 
 function Languages() {
@@ -49,9 +50,9 @@ function Languages() {
                 </div>
                 <div className="flex">
                     <div className="flex flex-col items-center">
-                        <FaDatabase className="w-8 h-8" />
+                        <RiDatabase2Fill  className="w-8 h-8" />
                         <p>
-                            SQL/NoSQL
+                            SQL
                         </p>
                     </div>
                 </div>

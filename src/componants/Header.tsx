@@ -124,6 +124,15 @@ function Header() {
               </button>
 
               <nav className="flex flex-col items-center gap-10 text-lg font-semibold font-[Orbitron]">
+                <button
+                  className="uppercase border-b border-slate-100 text-slate-100"
+                  onClick={() => {
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                    setIsNavOpen(false);
+                  }}
+                >
+                  Accueil
+                </button>
                 <a href="#about" className="uppercase border-b border-slate-100 text-slate-100" onClick={() => setIsNavOpen(false)}>À propos de moi</a>
                 <a href="#portfolio" className="uppercase border-b border-slate-100 text-slate-100" onClick={() => setIsNavOpen(false)}>Portfolio</a>
                 <a href="#contact" className="uppercase border-b border-slate-100 text-slate-100" onClick={() => setIsNavOpen(false)}>Contact</a>
