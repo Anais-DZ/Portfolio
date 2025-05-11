@@ -23,7 +23,7 @@ function Home() {
           alt="New York"
           className="w-42 h-auto float-right ml-2 mb-0 lg:w-54"
         />
-        <p>Avant de plonger dans les lignes de code, j’ai passé plus de 13 ans à sillonner les routes de campagne en tant que factrice. Un métier qui m’a appris bien plus que trier le courrier : rigueur, autonomie, sens de l’organisation et travail en équipe — des compétences toujours bien utiles dans le développement web. Et oui, après un voyage solo pour découvrir les rues de New York (et faire le plein de confiance en moi !), je me suis lancée dans la grande aventure de la reconversion.</p>
+        <p>Avant de plonger dans les lignes de code, j’ai passé plus de 13 ans à sillonner les routes de campagne en tant que factrice. Un métier qui m’a appris bien plus que trier le courrier : rigueur, autonomie, sens de l’organisation et travail en équipe — des compétences toujours bien utiles dans le développement web. Et oui, après un voyage solo pour découvrir les rues de New York (et faire le plein de confiance en moi !), je me suis lancée dans la grande aventure de la reconversion professionnelle.</p>
 
 
         <p>Effectivement, je ne suis pas une étudiante « fraîchement sortie du bac », mais ce parcours atypique est une force : choisir de se reconvertir ne se fait pas sur un coup de tête, et l’engagement qui en découle est souvent à la hauteur de la motivation.</p>
