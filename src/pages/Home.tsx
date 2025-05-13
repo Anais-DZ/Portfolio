@@ -102,13 +102,13 @@ function Home() {
             alt="qr code"
             className="w-40 h-auto lg:w-54"
           />
-          <p className="m-1">Scannez ou cliquez !</p>
+          <p className="m-1 ml-2">Scannez ou cliquez !</p>
         </a>
       </div>
 
       <PromoOverlay />
 
-      <h2 id="contact" className="scroll-mt-24 flex items-center justify-center lg:justify-end border-b-1 border-gray-400 pt-5 px-5 p-3 font-[Orbitron] font-normal text-xl mt-12 lg:text-2xl lg:mt-18">
+      <h2 id="contact" className="scroll-mt-24 flex items-center justify-center lg:justify-end border-b-1 border-gray-400 pt-5 px-5 p-3 font-[Orbitron] font-normal text-xl mt-10 lg:text-2xl lg:mt-18">
         Contact
       </h2>
 
