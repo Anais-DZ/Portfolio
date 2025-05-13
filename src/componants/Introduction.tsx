@@ -23,7 +23,7 @@ function Introduction() {
                         <p className="text-left lg:text-2xl font-[Orbitron]">
                             Je suis Anaïs,
                             <br />
-                            Développeuse Web et Web mobile.
+                            Développeuse Web Full Stack.
                         </p>
                         <p className="text-justify lg:text-lg">
                             Actuellement en fin de formation en Développement Web et Web mobile, je souhaite poursuivre mon parcours en préparant un Titre Professionnel de niveau 6 (équivalent Bac +3/4) en{" "}
