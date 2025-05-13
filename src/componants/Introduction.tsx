@@ -31,7 +31,7 @@ function Introduction() {
                                 href="/plaquette_cda.pdf"
                                 title="cliquez ici pour + d'info"
                                 target="_blank"
-                                className="underline lg:hover:text-pink-600"
+                                className="underline lg:hover:text-pink-500 transition-all duration-300 ease-in-out"
                             >
                                 Conception et Développement d'Applications option Éco-conception
                             </a>. Je suis donc activement à la recherche d'une alternance d'une durée de 18 mois dès la rentrée 2025 sur la région toulousaine.

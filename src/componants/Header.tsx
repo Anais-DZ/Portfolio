@@ -59,7 +59,7 @@ function Header() {
         {/* changement du nom du bouton accueil lors du scroll */}
         <button
           onClick={handleGoHome}
-          className="font-[Orbitron] text-xl hover:text-pink-600 relative inline-block w-[130px] h-6 text-center cursor-pointer"
+          className="font-[Orbitron] text-xl hover:text-pink-600 transition-all duration-300 ease-in-out relative inline-block w-[130px] h-6 text-center cursor-pointer"
         >
           <span className={`absolute left-0 top-0 w-full transition-opacity duration-300 ${isScrolled ? "opacity-0" : "opacity-100"}`}>
             Anaïs DIEZ
@@ -83,7 +83,7 @@ function Header() {
           <nav className="hidden lg:flex font-[Orbitron]">
             <ul className="flex space-x-8 text-xl">
               <li>
-                <button onClick={handleBack} className="text-xl cursor-pointer">Retour</button>
+                <button onClick={handleBack} className="text-xl cursor-pointer hover:text-pink-600 transition-all duration-300 ease-in-out">Retour</button>
               </li>
             </ul>
           </nav>
