@@ -20,7 +20,7 @@ function TicTacToe() {
 
             <LayoutProject
                 Image={["/tictactoe.webp", "/tictactoeDesk.webp"]}
-                Title={["🔗 Tic Tac Toe Arena"]}
+                Title={["Tic Tac Toe Arena"]}
                 Description={["Ce projet est une implémentation du jeu du morpion en React, basée sur le tutoriel officiel de React.", "Il permet à deux joueurs de s'affronter en plaçant des X et des O sur une grille 5x5.", "J'ai réalisé ce tutoriel en autodidacte pour apprendre les bases de React et progresser dans mes compétences en développement. Une phrase dynamique sous le titre, change automatiquement selon le jour de la semaine pour apporter un petit côté convivial", "Le site a été réalisé en React, Tailwind CSS et CSS."]}
                 Link="https://xo-arena.vercel.app/"
                 ButtonHref="https://github.com/Anais-DZ/Tic_Tac_Toe"

@@ -1,11 +1,12 @@
-import React from 'react';
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
-import AppRoutes from './routes'
+import AppRoutes from './routes';
+import ScrollToHash from './componants/ScrollToHash';
 
-const App: React.FC = () => {
+function App() {
   return (
     <BrowserRouter>
+      <ScrollToHash />
       <AppRoutes />
     </BrowserRouter>
   );

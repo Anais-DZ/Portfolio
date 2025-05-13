@@ -1,7 +1,8 @@
 import { Project } from "../types/models";
 import ImageGallery from "./ImageGallery";
 import MoreInfos from "./MoreInfos";
-import TechStack from "./TechStack";  // Importation du nouveau composant
+import TechStack from "./TechStack";
+import { IoIosLink } from "react-icons/io";
 
 interface LayoutProjectProps extends Project {
     techItems: { icon: React.ReactNode; label: string }[]; // Nouvelle prop pour les icônes
@@ -23,13 +24,15 @@ const LayoutProject = ({
                 <ImageGallery Image={Image} />
 
                 <div className="flex flex-col items-center">
-                    <h3 className="m-6 text-xl text-white font-semibold lg:hover:scale-105 lg:transition-all lg:duration-300 lg:text-2xl">
+                    <h3 className="m-6 text-xl text-white font-semibold lg:hover:scale-115 lg:transition-all lg:duration-300 lg:text-2xl">
                         {Link ? (
                             <a
                                 href={Link}
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                className=" flex items-center justify-center"
                             >
+                                <IoIosLink className="mr-2" />
                                 {Title}
                             </a>
                         ) : (
@@ -45,7 +48,7 @@ const LayoutProject = ({
 
 
                         {/* Affichage dynamique des technologies avec TechStack */}
-                        <p className="mt-6 text-lg text-justify">Développé avec :</p>
+                        <p className="mt-6 text-lg">Développé avec :</p>
                         <TechStack items={techItems} /> {/* Passer les items au composant */}
 
                         <p className="mt-4">{Description[3]}</p>

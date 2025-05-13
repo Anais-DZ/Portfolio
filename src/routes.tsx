@@ -8,6 +8,7 @@ import ApiWaste from './pages/ApiWaste';
 import PortfolioPage from './pages/PortfolioPage';
 import Gryphiq from './pages/Gryphiq';
 import CV from './pages/CV';
+import DbConsulting from './pages/DbConsulting ';
 
 const AppRoutes: React.FC = () => {
     return (
@@ -21,7 +22,8 @@ const AppRoutes: React.FC = () => {
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/tictactoe" element={<TicTacToe />} />
             <Route path="/gryphiq" element={<Gryphiq />} />
-            <Route path="/cv" element={<CV/>} />
+            <Route path="/cv" element={<CV />} />
+            <Route path="/dbconsulting" element={<DbConsulting />} />
 
         </Routes>
     );
