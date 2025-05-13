@@ -22,7 +22,7 @@ const ProjectCard = ({
                     <img
                         src={Image[0]}
                         alt=""
-                        className="w-full h-48 lg:h-58 object-cover mb-4"
+                        className="w-full h-54 lg:h-58 object-cover mb-4"
                     />
 
                     {/* Contenu */}
