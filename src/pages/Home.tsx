@@ -92,12 +92,13 @@ function Home() {
       <Portfolio />
 
       <div className='flex flex-col justify-center items-center lg:mt-20'>
-        <img
-          src="/qrcode.png"
-          alt="qr code"
-          className="w-32 h-auto mb-0 lg:w-54"
-        />
-        <p className='font-[Orbitron] text-sm lg:text-base'>Scannez-moi !</p>
+        <a href="/?promo=true" title="cliquez ici !" className='font-[Orbitron] text-sm lg:text-base text-center'>
+          <img
+            src="/qrcode.png"
+            alt="qr code"
+            className="w-32 h-auto mb-0 lg:w-54"
+          />
+          Scannez ou cliquez !</a>
       </div>
 
       <PromoOverlay />

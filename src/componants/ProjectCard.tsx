@@ -34,7 +34,7 @@ const ProjectCard = ({
                                         href={Link}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="block text-xl font-semibold lg:hover:scale-115 lg:transition-all lg:duration-300 flex items-center justify-center gap-2"
+                                        className=" text-xl font-semibold lg:hover:scale-115 lg:transition-all lg:duration-300 flex items-center justify-center gap-2"
                                     >
                                         <IoIosLink />
                                         {Title}
