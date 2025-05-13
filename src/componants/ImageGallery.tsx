@@ -25,7 +25,7 @@ function ImageGallery({ Image }: ImageGalleryProps) {
                         src={imgSrc}
                         alt={`image ${index + 1}`}
                         title="Cliquez sur l'image pour aggrandir"
-                        className="w-3/5 lg:w-[30vw] cursor-pointer shadow-lg hover:scale-105 transition-transform duration-300"
+                        className="w-3/5 lg:w-[30vw] cursor-pointer shadow-lg hover:scale-115 transition-transform duration-500"
                         onClick={() => handleImageClick(imgSrc)}
                     />
                 ))}

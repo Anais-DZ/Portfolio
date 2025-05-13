@@ -24,7 +24,7 @@ const LayoutProject = ({
                 <ImageGallery Image={Image} />
 
                 <div className="flex flex-col items-center">
-                    <h3 className="m-6 text-xl text-white font-semibold lg:hover:scale-115 lg:transition-all lg:duration-300 lg:text-2xl">
+                    <h3 className="m-6 text-xl text-white font-semibold lg:hover:scale-115 lg:transition-all lg:duration-500 lg:text-2xl">
                         {Link ? (
                             <a
                                 href={Link}
