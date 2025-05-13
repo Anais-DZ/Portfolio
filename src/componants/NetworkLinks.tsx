@@ -45,8 +45,8 @@ function NetworkLinks({ className }: NetworkLinksProps) {
         <FaEnvelope className="w-7 h-7 lg:w-9 lg:h-9" />
       </a>
       <a
-        href="https://cv-adiez.vercel.app/"
-        aria-label="Voir mon CV en ligne"
+        href="/cv-anais-diez.pdf"
+        aria-label="Voir mon CV en PDF"
         target="_blank"
         rel="noopener noreferrer"
       >

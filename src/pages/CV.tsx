@@ -17,7 +17,7 @@ function CV() {
 
             <LayoutProject
                 Image={["/cv.webp", "/cvMobile.webp"]}
-                Title={["Mon CV en ligne"]}
+                Title={["Mon ancien CV en ligne"]}
                 Description={["Ce CV en ligne est l’un de mes tout premiers projets web. Je l’ai conçu pour présenter mon parcours, mes compétences et offrir un moyen de contact simple et direct aux recruteurs.", "Le site propose une navigation claire et responsive, pensée pour s’adapter à tous les supports : ordinateur, tablette ou mobile. Le design est épuré, avec des liens interactifs qui facilitent la prise de contact.", "Au-delà de l’aspect pratique, ce projet m’a permis de mettre en application mes premières connaissances en développement web, tout en soignant l’esthétique et l’accessibilité du contenu.", "Le site a été réalisé en HTML et CSS."]}
                 Link="https://cv-adiez.vercel.app/"
                 ButtonHref="https://github.com/Anais-DZ/Curriculum-Vitae-en-ligne"

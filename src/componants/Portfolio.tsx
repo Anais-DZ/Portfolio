@@ -61,7 +61,7 @@ function Portfolio() {
           />
           <ProjectCard
             Image={["cv.webp"]}
-            Title={["CV en ligne"]}
+            Title={["Mon ancien CV en ligne"]}
             Link="https://cv-adiez.vercel.app/"
             ButtonHref="/cv"
             Description={["Mon CV en ligne pour tout type d'écran"]}
