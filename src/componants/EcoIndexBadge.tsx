@@ -10,7 +10,7 @@ function EcoIndexStaticBadge({ url, theme = 'light' }: EcoIndexStaticBadgeProps)
   return (
     <div>
       <a href={ecoIndexUrl} target="_blank" rel="noopener noreferrer">
-        <img src={ecoIndexImage} alt="Ecoindex Badge" />
+        <img src={ecoIndexImage} alt="Ecoindex Badge" className="ecoindex-badge lg:hover:scale-110 lg:transition-all lg:duration-300 "/>
       </a>
     </div>
   );

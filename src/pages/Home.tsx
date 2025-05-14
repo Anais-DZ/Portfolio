@@ -115,7 +115,7 @@ function Home() {
       <ContactForm />
 
       {/* Bouton Ecoindex */}
-      <div className="flex justify-center mb-2">
+      <div className="flex justify-center mb-2 lg:mt-12 lg:mb-0">
         <EcoIndexStaticBadge url="https://anaisdiez.vercel.app" theme="light" />
       </div>
 
