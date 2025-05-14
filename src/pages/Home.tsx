@@ -1,4 +1,4 @@
-import { useRef, useState } from "react"; import Header from '../componants/Header';
+import Header from '../componants/Header';
 import Introduction from '../componants/Introduction';
 import HardSkills from '../componants/HardSkills';
 import Portfolio from '../componants/Portfolio';
@@ -8,49 +8,7 @@ import EcoIndexStaticBadge from '../componants/EcoIndexBadge';
 import Footer from '../componants/Footer';
 
 function Home() {
-  const [shareError, setShareError] = useState(false);
-  const errorTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-
-  const handleShare = async () => {
-    const shareUrl = window.location.href;
-
-    setShareError(false);
-
-    try {
-      if (navigator.share) {
-        try {
-          await navigator.share({
-            title: "Portfolio | Anaïs DIEZ, Développeuse Web Full Stack",
-            text: "Découvrez son portfolio, ses projets et son parcours.",
-            url: shareUrl,
-          });
-          return;
-        } catch (shareErr: any) {
-          if (shareErr.name === "AbortError") return;
-          console.error("Erreur lors du partage :", shareErr);
-          try {
-            await navigator.clipboard.writeText(shareUrl);
-          } catch (clipboardErr) {
-            console.error("Erreur lors de la copie :", clipboardErr);
-            setShareError(true);
-          }
-        }
-      } else {
-        try {
-          await navigator.clipboard.writeText(shareUrl);
-        } catch (clipboardErr) {
-          console.error("Erreur fallback :", clipboardErr);
-          setShareError(true);
-        }
-      }
-    } catch (unexpectedErr) {
-      console.error("Erreur inattendue :", unexpectedErr);
-      setShareError(true);
-    }
-
-    if (errorTimeoutRef.current) clearTimeout(errorTimeoutRef.current);
-    errorTimeoutRef.current = setTimeout(() => setShareError(false), 2000);
-  };
+  
 
   return (
     <>
@@ -117,19 +75,7 @@ function Home() {
       {/* Bouton Ecoindex */}
       <div className="flex justify-center mb-2 lg:mt-12 lg:mb-0">
         <EcoIndexStaticBadge url="https://anaisdiez.vercel.app" theme="light" />
-      </div>
-
-      {/* Bouton de partage */}
-      <div className="pt-4 text-center mb-6 lg:pt-18">
-        <button
-          onClick={handleShare}
-          className="bg-pink-800 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded-sm transition cursor-pointer"
-        >
-          Partager ce portfolio
-        </button>
-        {shareError && (
-          <p className="mt-2 text-sm text-red-400">Une erreur est survenue lors du partage ou de la copie.</p>
-        )}
+        
       </div>
 
       <Footer />
