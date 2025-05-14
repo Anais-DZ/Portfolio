@@ -88,6 +88,11 @@
     background: linear-gradient(90deg, rgba(1, 139, 188, 1) 0%, rgba(39, 52, 87, 1) 33%, rgba(75, 37, 76, 1) 66%, rgba(167, 55, 137, 1) 100%);
   }
 
+  .ecoindex-badge {
+    width: 140px;
+    height: auto;
+  }
+
   @media (min-width: 1024px) {
     .ecoindex-badge {
       width: 170px;
