@@ -8,7 +8,7 @@ import EcoIndexStaticBadge from '../componants/EcoIndexBadge';
 import Footer from '../componants/Footer';
 
 function Home() {
-  
+
 
   return (
     <>
@@ -26,18 +26,18 @@ function Home() {
           alt="New York"
           className="w-42 h-auto float-right ml-6 mt-2 mb-1 lg:mt-1 lg:mb-0 lg:w-54"
         />
-        <p>Avant de plonger dans les lignes de code, j’ai passé plus de 13 ans à sillonner les routes de campagne en tant que factrice. Un métier qui m’a appris bien plus que trier le courrier : rigueur, autonomie, sens de l’organisation et travail en équipe — des compétences toujours bien utiles dans le développement web. Et oui, après un voyage solo pour découvrir les rues de New-York (et faire le plein de confiance en moi !), je me suis lancée dans la grande aventure de la reconversion professionnelle.</p>
+        <p>Avant de plonger dans les lignes de code, j’ai passé plus de 13 ans à sillonner les routes en tant que factrice. Un métier qui m’a appris bien plus que trier le courrier : rigueur, autonomie, organisation et travail en équipe — des compétences toujours bien utiles dans le développement web. Et oui, après un voyage solo pour découvrir les rues de New-York (et faire le plein de confiance en moi !), je me suis lancée dans la grande aventure de la reconversion professionnelle.</p>
 
 
         <p>Effectivement, je ne suis pas une étudiante « fraîchement sortie du bac », mais ce parcours atypique est une force : choisir de se reconvertir ne se fait pas sur un coup de tête, et l’engagement qui en découle est souvent à la hauteur de la motivation.</p>
 
-        <p>Pour preuve, aujourd’hui, je termine une formation en Développement Web et Web mobile (titre pro niveau Bac+2). J’y ai acquis des compétences sérieuses en front-end et back-end, de JavaScript à PHP, en passant par l’intégration d’API REST. Et pour pimenter le tout, j’ai apprivoisé React et Tailwind CSS en autodidacte.</p>
+        <p>Pour preuve, aujourd’hui, je termine une formation en Développement Web et Web mobile (RNCP niv.5) où j’y ai acquis de sérieuses compétences en front-end et back-end (JavaScript, PHP, SQL…) et j’ai pris goût à l’autonomie en apprenant seule à manier React et Tailwind CSS.</p>
 
-        <p>Au-delà des langages, j’ai appris à concevoir des interfaces dynamiques, rechercher et corriger des bugs, optimiser l’expérience utilisateur et m’adapter à des outils variés comme GitHub ou Figma.</p>
+        <p>Au-delà des langages, j’ai également appris à concevoir des interfaces dynamiques, à déboguer, et à optimiser l’expérience utilisateur. J’ai manipulé divers outils comme GitHub, Figma ou Firebase et mis tout ça en pratique lors d’un stage sur un projet web mobile, en équipe et à distance.</p>
 
-        <p>Après un récent stage sur des projets d’application web et mobile, en collaborant à distance avec une équipe de développeurs, je souhaite continuer avec une alternance en Conception et Développement d’Applications option Éco-conception, une approche qui m'intéresse particulièrement. En effet, je suis soucieuse de l'empreinte carbone générée par les sites que je développe et je désire approfondir mes compétences dans ce domaine pour trouver des solutions plus responsables et durables.</p>
+        <p>Aujourd’hui, je souhaite aller plus loin avec une formation en alternance en Conception et Développement d'Applications, option Éco-conception, une approche qui m'intéresse particulièrement. En effet, je suis consciente de l’impact environnemental des sites que je développe et je désire approfondir mes compétences techniques dans ce domaine afin de concevoir des solutions plus responsables et durables.</p>
 
-        <p>Sérieuse mais pas rigide, discrète mais impliquée, curieuse et motivée, je suis prête à rejoindre une entreprise qui serait pour moi l’opportunité de continuer à apprendre aux côtés de développeurs expérimentés, tout en contribuant à leurs projets grâce aux connaissances que j’ai déjà acquises.</p>
+        <p>Sérieuse mais pas rigide, discrète mais impliquée, curieuse et motivée, je suis prête à rejoindre une entreprise pour mettre concrètement en pratique mes connaissances au sein d’une équipe professionnelle, mais aussi élargir mes connaissances autour du déploiement d’applications, de la sécurisation des serveurs et des bases de données, des pratiques DevOps, de la gestion de projet Agile, ainsi que du testing.</p>
       </section>
 
       <HardSkills />
@@ -75,7 +75,7 @@ function Home() {
       {/* Bouton Ecoindex */}
       <div className="flex justify-center mb-2 lg:mt-12 lg:mb-0">
         <EcoIndexStaticBadge url="https://anaisdiez.vercel.app" theme="light" />
-        
+
       </div>
 
       <Footer />
