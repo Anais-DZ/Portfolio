@@ -1,10 +1,10 @@
-import Header from '../componants/Header';
+import { useRef, useState } from "react"; import Header from '../componants/Header';
 import Introduction from '../componants/Introduction';
 import HardSkills from '../componants/HardSkills';
 import Portfolio from '../componants/Portfolio';
 import PromoOverlay from '../componants/PromoOverlay';
 import ContactForm from '../componants/ContactForm';
-import { useRef, useState } from "react";
+import EcoIndexStaticBadge from '../componants/EcoIndexBadge';
 import Footer from '../componants/Footer';
 
 function Home() {
@@ -113,6 +113,11 @@ function Home() {
       </h2>
 
       <ContactForm />
+
+      {/* Bouton Ecoindex */}
+      <div className="flex justify-center mb-2">
+        <EcoIndexStaticBadge url="https://anaisdiez.vercel.app" theme="light" />
+      </div>
 
       {/* Bouton de partage */}
       <div className="pt-4 text-center mb-6 lg:pt-18">
