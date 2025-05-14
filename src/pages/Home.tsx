@@ -20,7 +20,7 @@ function Home() {
       if (navigator.share) {
         try {
           await navigator.share({
-            title: "Portfolio | Anaïs DIEZ, Développeuse Web et Web mobile",
+            title: "Portfolio | Anaïs DIEZ, Développeuse Web Full Stack",
             text: "Découvrez son portfolio, ses projets et son parcours.",
             url: shareUrl,
           });
