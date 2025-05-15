@@ -56,7 +56,7 @@ function Home() {
           className="flex flex-col items-center font-[Orbitron] text-sm lg:text-base"
         >
           <img
-            src="/qrcode.png"
+            src="/qrcode.webp"
             alt="qr code"
             className="w-40 h-auto lg:w-54"
           />

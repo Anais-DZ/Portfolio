@@ -1,6 +1,14 @@
+import { useEffect } from "react";
 import NetworkLinks from "./NetworkLinks";
 
 function Introduction() {
+
+    // Pré-chargement de l'image de fond
+    useEffect(() => {
+        const img = new Image();
+        img.src = "/pink.webp"; // chemin vers image de fond
+    }, []);
+
     return (
         <>
             <section id="intro" className="flex items-center justify-center bg-presentation mt-24 lg:mt-26 lg:mx-0">
