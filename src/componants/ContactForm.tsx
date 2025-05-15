@@ -6,7 +6,18 @@ function ContactForm() {
                 <div className="flex flex-col text-center w-full mb-12">
                     <h3 className="text-2xl font-[Orbitron]">Formulaire de contact</h3>
                     <p className="lg:w-2/3 mx-auto text-lg">
-                        Vous pouvez me contacter par mail ou directement via ce formulaire.
+                        Vous pouvez me contacter par {" "}
+                        <a
+                            href="mailto:diez.anais@gmail.com"
+                            aria-label="Me contacter par mail"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title="diez.anais@gmail.com"
+                            className="underline lg:hover:text-pink-500 transition-all duration-300 ease-in-out"
+                        >
+                            mail
+                        </a>
+                        {" "}ou directement via ce formulaire.
                     </p>
                 </div>
                 <form
