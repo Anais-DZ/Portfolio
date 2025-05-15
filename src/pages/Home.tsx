@@ -35,7 +35,7 @@ function Home() {
 
         <p>Au-delà des langages, j’ai également appris à concevoir des interfaces dynamiques, à déboguer, et à optimiser l’expérience utilisateur. J’ai manipulé divers outils comme GitHub, Figma ou Firebase et mis tout ça en pratique lors d’un stage sur un projet web mobile, en équipe et à distance.</p>
 
-        <p>Aujourd’hui, je souhaite aller plus loin avec une formation en alternance en Conception et Développement d'Applications, option Éco-conception, une approche qui m'intéresse particulièrement. En effet, je suis consciente de l’impact environnemental des sites que je développe et je désire approfondir mes compétences techniques dans ce domaine afin de concevoir des solutions plus responsables et durables.</p>
+        <p>Aujourd’hui, je souhaite aller plus loin avec une formation en alternance en Conception et Développement d'Applications, option Éco-conception, une approche qui m'intéresse particulièrement. Consciente de l’impact environnemental du numérique, je désire approfondir mes compétences techniques dans ce domaine afin de concevoir des solutions plus responsables et durables.</p>
 
         <p>Sérieuse mais pas rigide, discrète mais impliquée, curieuse et motivée, je suis prête à rejoindre une entreprise pour mettre concrètement en pratique mes connaissances au sein d’une équipe professionnelle, mais aussi élargir mes connaissances autour du déploiement d’applications, de la sécurisation des serveurs et des bases de données, des pratiques DevOps, de la gestion de projet Agile, ainsi que du testing.</p>
       </section>
