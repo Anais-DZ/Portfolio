@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import NetworkLinks from "./NetworkLinks";
 
+
 function Introduction() {
 
     // Pré-chargement de l'image de fond
