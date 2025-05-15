@@ -9,6 +9,7 @@ import PortfolioPage from './pages/PortfolioPage';
 import Gryphiq from './pages/Gryphiq';
 import CV from './pages/CV';
 import DbConsulting from './pages/DbConsulting ';
+import LinktreePage from './pages/LinktreePage';
 
 const AppRoutes: React.FC = () => {
     return (
@@ -24,6 +25,7 @@ const AppRoutes: React.FC = () => {
             <Route path="/gryphiq" element={<Gryphiq />} />
             <Route path="/cv" element={<CV />} />
             <Route path="/dbconsulting" element={<DbConsulting />} />
+            <Route path="/linktreepage" element={<LinktreePage />} />
 
         </Routes>
     );

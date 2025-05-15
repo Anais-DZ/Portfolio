@@ -71,9 +71,9 @@ function Portfolio() {
             Image={["firstpage.webp"]}
             Title={["Mon premier portfolio"]}
             Link="https://anais-diez.vercel.app/"
-            ButtonHref=""
+            ButtonHref="/linktreepage"
             Description={["Mon premier portfolio inspiré de Linktree"]}
-            TitleButton="+ d'infos à venir"
+            TitleButton="Voir le projet"
           />
         </div>
       </div>
