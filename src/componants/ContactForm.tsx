@@ -6,7 +6,7 @@ function ContactForm() {
                 <div className="flex flex-col text-center w-full mb-12">
                     <h3 className="text-2xl font-[Orbitron]">Formulaire de contact</h3>
                     <p className="lg:w-2/3 mx-auto text-lg">
-                        Vous pouvez directement me contacter via ce formulaire.
+                        Vous pouvez me contacter par mail ou directement via ce formulaire.
                     </p>
                 </div>
                 <form
