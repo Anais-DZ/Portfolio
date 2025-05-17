@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import NetworkLinks from "./NetworkLinks";
-
+import { FiExternalLink } from "react-icons/fi";
 
 function Introduction() {
 
@@ -44,10 +44,20 @@ function Introduction() {
                             >
                                 Conception et Développement d'Applications, option Éco-conception
                             </a>
-                            {" "}(RNCP niv. 6, équivalent à un Bac +3/4), d'une durée de 18 mois, à raison de 3 semaines en entreprise et 1 semaine en formation, dès la rentrée 2025 sur Toulouse et sa périphérie.
+                            {" "}(équivalent à Bac +3/4), d'une durée de 18 mois, à raison de 3 semaines en entreprise et 1 semaine en formation, dès la rentrée 2025 sur Toulouse et sa périphérie.
                         </p>
                         <p className="text-left lg:text-lg">
-                            Vous pouvez découvrir mon portfolio ci-dessous, ainsi qu’en apprendre un peu plus sur moi et mon parcours.
+                            Vous pouvez découvrir mon{" "}
+                        <a
+                            href="#portfolio"
+                            aria-label="lien pour voir directement le portfolio"
+                            rel="noopener noreferrer"
+                            title="Direction le portfolio !"
+                            className="underline lg:hover:text-pink-500 transition-all duration-300 ease-in-out"
+                        >
+                            portfolio
+                        </a>
+                        {" "}ci-dessous, ainsi qu’en apprendre un peu plus sur moi et mon parcours.
                         </p>
 
                         <NetworkLinks />

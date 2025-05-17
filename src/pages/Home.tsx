@@ -26,7 +26,7 @@ function Home() {
           alt="New York"
           className="w-42 h-auto float-right ml-6 mt-2 mb-1 lg:mt-1 lg:mb-0 lg:w-54"
         />
-        <p>Avant de plonger dans les lignes de code, j’ai passé plus de 13 ans à sillonner les routes en tant que factrice. Un métier qui m’a appris bien plus que trier le courrier : rigueur, autonomie, organisation et travail en équipe — des compétences toujours bien utiles dans le développement web. Et oui, après un voyage solo pour découvrir les rues de New-York (et faire le plein de confiance en moi !), je me suis lancée dans la grande aventure de la reconversion professionnelle.</p>
+        <p>Avant de plonger dans les lignes de code, j’ai passé plus de 13 ans à sillonner les routes en tant que factrice. Un métier qui m’a appris bien plus que trier le courrier : rigueur, autonomie et travail en équipe — des compétences toujours bien utiles dans le développement web. Et oui, après un voyage solo pour découvrir les rues de New-York (et faire le plein de confiance en moi !), je me suis lancée dans la grande aventure de la reconversion professionnelle.</p>
 
 
         <p>Effectivement, je ne suis pas une étudiante « fraîchement sortie du bac », mais ce parcours atypique est une force : choisir de me reconvertir est un choix réfléchi et l’engagement qui en découle est à la hauteur de ma motivation.</p>
@@ -35,7 +35,7 @@ function Home() {
 
         <p>Au-delà des langages, j’ai également appris à concevoir des interfaces dynamiques, à déboguer, et à optimiser l’expérience utilisateur. J’ai manipulé divers outils comme GitHub, Figma ou Firebase et mis tout ça en pratique lors d’un stage sur un projet web mobile, en équipe et à distance.</p>
 
-        <p>Aujourd’hui, je souhaite aller plus loin avec une formation en alternance en Conception et Développement d'Applications, option Éco-conception. Consciente de l’impact environnemental du numérique, je désire approfondir mes compétences techniques dans ce domaine afin de concevoir des solutions plus responsables et durables.</p>
+        <p>Aujourd’hui, je souhaite aller plus loin avec une formation en alternance en Conception et Développement d'Applications, option Éco-conception (RNCP niv. 6). Consciente de l’impact environnemental du numérique, je désire approfondir mes compétences techniques dans ce domaine afin de concevoir des solutions plus responsables et durables.</p>
 
         <p>Sérieuse mais pas rigide, discrète mais impliquée, curieuse et motivée, je souhaite rejoindre une entreprise pour mettre concrètement en pratique mes acquis au sein d’une équipe professionnelle, mais aussi élargir mes connaissances autour du déploiement d’applications, de la sécurisation des serveurs et des bases de données, des pratiques DevOps, de la gestion de projet Agile, ainsi que du testing.</p>
       </section>
