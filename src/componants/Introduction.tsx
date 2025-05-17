@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import NetworkLinks from "./NetworkLinks";
-import { FiExternalLink } from "react-icons/fi";
 
 function Introduction() {
 
