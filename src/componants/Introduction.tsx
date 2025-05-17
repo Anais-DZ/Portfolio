@@ -34,7 +34,7 @@ function Introduction() {
                             <br />
                             Développeuse Web Full Stack.
                         </p>
-                        <p className="text-justify lg:text-lg">
+                        <p className="lg:text-justify lg:text-lg">
                             Actuellement en fin de formation en Développement Web et Web mobile, je suis à la recherche d’une alternance en{" "}
                             <a
                                 href="/plaquette_cda.pdf"
