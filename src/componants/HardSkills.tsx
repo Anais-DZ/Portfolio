@@ -14,7 +14,7 @@ function HardSkills() {
                     {/* Contenu au-dessus du blur */}
                     <div className="relative z-10 text-white space-y-7">
                         <h2 className="text-2xl lg:text-3xl font-semibold text-center font-[Orbitron]">
-                            Hardskills
+                            Compétences techniques
                         </h2>
 
                         <div className="grid grid-cols-1 lg:grid-cols-3">
