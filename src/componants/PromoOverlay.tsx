@@ -64,7 +64,7 @@ const PromoOverlay = () => {
         </p>
         <button
           onClick={handleContactClick}
-          className="mt-4 inline-block rounded-full bg-pink-600 px-6 py-2 text-white font-medium hover:bg-pink-700 transition"
+          className="mt-4 inline-block rounded-full bg-pink-600 px-6 py-2 text-white font-medium hover:bg-pink-700 transition cursor-pointer"
         >
           Par ici !
         </button>

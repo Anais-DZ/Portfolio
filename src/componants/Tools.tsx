@@ -17,41 +17,41 @@ function Tools() {
 
                 {/*ligne des icones avec leurs noms*/}
                 <div className="flex ">
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-center lg:hover:scale-120 lg:transition-all lg:duration-300">
                         <GrMysql className="w-8 h-8" />
-                        <p>
+                        <p className="cursor-default">
                             MySQL
                         </p>
                     </div>
                 </div>
                 <div className="flex">
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-center lg:hover:scale-120 lg:transition-all lg:duration-300">
                         <IoLogoFigma className="w-8 h-8" />
-                        <p>
+                        <p className="cursor-default">
                             Figma
                         </p>
                     </div>
                 </div>
                 <div className="flex">
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-center lg:hover:scale-120 lg:transition-all lg:duration-300">
                         <VscVscodeInsiders className="w-8 h-8" />
-                        <p>
+                        <p className="cursor-default">
                             VS Code
                         </p>
                     </div>
                 </div>
                 <div className="flex">
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-center lg:hover:scale-120 lg:transition-all lg:duration-300">
                         <FaGithub className="w-8 h-8" />
-                        <p>
+                        <p className="cursor-default">
                             GitHub
                         </p>
                     </div>
                 </div>
                 <div className="flex">
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-center lg:hover:scale-120 lg:transition-all lg:duration-300">
                         <SiFirebase className="w-8 h-8" />
-                        <p>
+                        <p className="cursor-default">
                             Firebase
                         </p>
                     </div>
