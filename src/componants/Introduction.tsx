@@ -29,12 +29,12 @@ function Introduction() {
                             Bonjour 👩‍💻
                         </h1>
                         <p className="text-left lg:text-2xl font-[Orbitron]">
-                            Je suis Anaïs,
+                            Je suis Anaïs DIEZ,
                             <br />
                             Développeuse Web Full Stack.
                         </p>
                         <p className="lg:text-justify lg:text-lg">
-                            Actuellement en fin de formation en Développement Web et Web mobile, je suis à la recherche d’une alternance en{" "}
+                            Ayant terminé ma formation en Développement Web et Web mobile, je suis acutellement à la recherche d’une alternance en{" "}
                             <a
                                 href="/plaquette_cda.pdf"
                                 title="cliquez ici pour + d'info"

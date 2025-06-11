@@ -26,12 +26,12 @@ function Home() {
           alt="New York"
           className="w-42 h-auto float-right ml-6 mt-2 mb-1 lg:mt-1 lg:mb-0 lg:w-54"
         />
-        <p>Avant de plonger dans les lignes de code, j’ai passé plus de 13 ans à sillonner les routes en tant que factrice. Un métier qui m’a appris bien plus que trier le courrier : rigueur, autonomie et travail en équipe — des compétences toujours bien utiles dans le développement web. Et oui, après un voyage solo pour découvrir les rues de New-York (et faire le plein de confiance en moi !), je me suis lancée dans la grande aventure de la reconversion professionnelle.</p>
+        <p>Avant de plonger dans l’univers du code, j’ai passé plus de 13 ans à sillonner les routes en tant que factrice. Un métier qui m’a appris bien plus que trier le courrier : rigueur, autonomie et travail en équipe — des compétences toujours bien utiles dans le développement web. Et oui, après un voyage solo pour découvrir les rues de New-York (et faire le plein de confiance en moi !), je me suis lancée dans la grande aventure de la reconversion professionnelle.</p>
 
 
-        <p>Effectivement, je ne suis pas une étudiante « fraîchement sortie du bac », mais ce parcours atypique est une force : choisir de me reconvertir est un choix réfléchi et l’engagement qui en découle est à la hauteur de ma motivation.</p>
+        <p>Effectivement, je ne suis pas une étudiante fraîchement sortie du bac — à 38 ans, j’ai troqué la voiture jaune pour les lignes de code, portée par une vraie motivation de réussite. Mon "grand" âge m’apporte une maturité professionnelle, une bonne connaissance du monde du travail et une forte capacité d’adaptation. Et puis reprendre des études est un choix réfléchi, nourri par l’envie d’apprendre et de bâtir un nouveau projet professionnel.</p>
 
-        <p>Pour preuve, aujourd’hui, je termine une formation en Développement Web et Web mobile (RNCP niv.5) où j’y ai acquis de sérieuses compétences en front-end et back-end (JavaScript, PHP POO, SQL…) et j’ai pris goût à l’autonomie en apprenant seule à manier React et Tailwind CSS.</p>
+        <p>Pour preuve, aujourd’hui, je viens de terminer une formation en Développement Web et Web mobile (RNCP niv.5) où j’y ai acquis de sérieuses compétences en front-end et back-end (JavaScript, PHP POO, SQL…) et j’ai pris goût à l’autonomie en apprenant seule à manier React et Tailwind CSS.</p>
 
         <p>Au-delà des langages, j’ai également appris à concevoir des interfaces dynamiques, à déboguer, et à optimiser l’expérience utilisateur. J’ai manipulé divers outils comme GitHub, Figma ou Firebase et mis tout ça en pratique lors d’un stage sur un projet web mobile, en équipe et à distance.</p>
 
