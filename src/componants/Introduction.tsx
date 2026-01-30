@@ -34,16 +34,16 @@ function Introduction() {
                             Développeuse Web Full Stack.
                         </p>
                         <p className="lg:text-justify lg:text-lg">
-                            Ayant terminé ma formation en Développement Web et Web mobile, je suis acutellement à la recherche d’une alternance en{" "}
+                            Développeuse Web passionnée, je poursuis mon parcours en alternance en{" "}
                             <a
-                                href="/plaquette_cda.pdf"
+                                href="/cda_devops_alternance.pdf"
                                 title="cliquez ici pour + d'info"
                                 target="_blank"
                                 className="underline lg:hover:text-pink-500 transition-all duration-300 ease-in-out font-bold"
                             >
-                                Conception et Développement d'Applications DevOps
+                                Conception et Développement d'Applications - DevOps
                             </a>
-                            {" "}(équivalent à Bac +3/4), d'une durée de 18 mois, à raison de 3 semaines en entreprise et 1 semaine en formation, dès mars 2026 sur Toulouse et sa périphérie avec Wild Code School.
+                            {" "}(équivalent à Bac +3/4) avec la Wild Code School et au sein de l'entreprise TMIC Ellipses.
                         </p>
                         <p className="text-left lg:text-lg">
                             Vous pouvez découvrir mon{" "}
