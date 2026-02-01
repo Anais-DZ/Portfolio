@@ -43,7 +43,7 @@ function Introduction() {
                             >
                                 Conception et Développement d'Applications - DevOps
                             </a>
-                            {" "}(équivalent à Bac +3/4) avec la Wild Code School et au sein de l'entreprise TMIC Ellipses.
+                            {" "}avec la Wild Code School et au sein de l'entreprise TMIC Ellipses.
                         </p>
                         <p className="text-left lg:text-lg">
                             Vous pouvez découvrir mon{" "}

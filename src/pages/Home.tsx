@@ -29,11 +29,11 @@ function Home() {
         <p>Avant de plonger dans l’univers du code, j’ai passé plus de treize ans à sillonner les routes en tant que factrice. Un métier qui m’a appris la rigueur, l’autonomie et le travail en équipe — des compétences que je mobilise aujourd’hui pleinement dans le développement web.
         Après un voyage solo à New York, véritable déclencheur personnel, j’ai choisi de me reconvertir pour bâtir un projet professionnel qui me correspond.</p>
 
-        <p>J'ai récemment terminé une formation en Développement Web et Web Mobile (RNCP niveau 5), où j’ai acquis les bases en front-end et back-end (JavaScript, PHP POO, SQL…). Curieuse de nature, j’ai aussi appris à utiliser React et Tailwind CSS en autonomie.</p>
+        <p>J'ai récemment terminé une formation en Développement Web et Web Mobile (RNCP niv. 5), où j’ai acquis les bases en front-end et back-end (JavaScript, PHP POO, SQL…). Curieuse de nature, j’ai aussi appris à utiliser React et Tailwind CSS en autonomie.</p>
 
         <p>J’aime concevoir des interfaces dynamiques, chercher des solutions, déboguer et améliorer l’expérience utilisateur. J’ai travaillé avec GitHub, Figma et Firebase, et mis tout cela en pratique lors d’un stage sur un projet web mobile, réalisé en équipe et à distance.</p>
 
-        <p>Aujourd’hui, je poursuis mon parcours en alternance en Conception et Développement d’Applications - DevOps (RNCP niveau 6) avec l’envie de continuer à apprendre, de progresser techniquement et de m’investir pleinement au sein d’une équipe.</p>
+        <p>Aujourd’hui, je poursuis mon parcours en alternance en Conception et Développement d’Applications - DevOps (RNCP niv. 6) avec l’envie de continuer à apprendre, de progresser techniquement et de m’investir pleinement au sein d’une équipe.</p>
       </section>
 
       <HardSkills />
