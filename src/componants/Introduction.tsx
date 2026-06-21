@@ -43,7 +43,7 @@ function Introduction() {
                             >
                                 Conception et Développement d'Applications - DevOps
                             </a>
-                            {" "}et déjà engagée dans un contrat d’alternance jusqu’en octobre 2027 (1 semaine en formation / 3 semaines en entreprise), je suis à la recherche d’une nouvelle entreprise afin de poursuivre ma formation dans un cadre plus structuré et en adéquation avec les compétences visées.
+                            {" "}avec Simplon et déjà engagée dans un contrat d’alternance jusqu’en octobre 2027 (1 semaine en formation / 3 semaines en entreprise), je suis à la recherche d’une nouvelle entreprise afin de poursuivre ma formation dans un cadre plus structuré et en adéquation avec les compétences visées.
                         </p>
                         <p className="text-left lg:text-lg">
                             Vous pouvez découvrir mon{" "}
