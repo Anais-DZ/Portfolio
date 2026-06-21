@@ -34,7 +34,7 @@ function Introduction() {
                             Développeuse Web Full Stack.
                         </p>
                         <p className="lg:text-justify lg:text-lg">
-                            Développeuse Web passionnée, je poursuis mon parcours en alternance en{" "}
+                            Actuellement en formation en{" "}
                             <a
                                 href="/cda_devops_alternance.pdf"
                                 title="cliquez ici pour + d'info"
@@ -43,20 +43,20 @@ function Introduction() {
                             >
                                 Conception et Développement d'Applications - DevOps
                             </a>
-                            {" "}avec la Wild Code School et au sein de l'entreprise TMIC Ellipses.
+                            {" "}et déjà engagée dans un contrat d’alternance jusqu’en octobre 2027 (1 semaine en formation / 3 semaines en entreprise), je suis à la recherche d’une nouvelle entreprise afin de poursuivre ma formation dans un cadre plus structuré et en adéquation avec les compétences visées.
                         </p>
                         <p className="text-left lg:text-lg">
                             Vous pouvez découvrir mon{" "}
-                        <a
-                            href="#portfolio"
-                            aria-label="lien pour voir directement le portfolio"
-                            rel="noopener noreferrer"
-                            title="Direction le portfolio !"
-                            className="underline lg:hover:text-pink-500 transition-all duration-300 ease-in-out"
-                        >
-                            portfolio
-                        </a>
-                        {" "}ci-dessous, ainsi qu’en apprendre un peu plus sur moi et mon parcours.
+                            <a
+                                href="#portfolio"
+                                aria-label="lien pour voir directement le portfolio"
+                                rel="noopener noreferrer"
+                                title="Direction le portfolio !"
+                                className="underline lg:hover:text-pink-500 transition-all duration-300 ease-in-out"
+                            >
+                                portfolio
+                            </a>
+                            {" "}ci-dessous, ainsi qu’en apprendre un peu plus sur moi et mon parcours.
                         </p>
 
                         <NetworkLinks />
